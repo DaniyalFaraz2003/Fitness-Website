@@ -1,0 +1,2 @@
+20240408	10:29:16	24c46cc3-eec5-47b1-ba17-b5a6202f2d2d	Error: ENOENT: no such file or directory, open '../Data/loginData.json'	POST	/api/v1/register	http://localhost:5173
+20240408	10:32:44	07b74e38-a547-4966-944c-77426330a98f	Error: ENOENT: no such file or directory, open '../Data/loginData.json'	POST	/api/v1/register	http://localhost:5173
