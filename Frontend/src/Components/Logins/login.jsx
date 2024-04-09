@@ -15,7 +15,7 @@ export default function Login({ onlogin }) {
             const response = await axios.post('http://localhost:5000/api/v1/login', { username, password });
             setMessage(response.data);
             if (response.status == 200) {
-                onlogin();
+                onlogin(username);
                 window.location = '/';
             }
         } catch (error) {

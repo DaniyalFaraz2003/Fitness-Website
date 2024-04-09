@@ -12,6 +12,7 @@ import Nutrition from './Components/NavComponents/Nutrition/Nutrition'
 
 function App() {
 	const [loggedIn, setLoggedIn] = useState(JSON.parse(localStorage.getItem("loggedIn")) | false);
+	const [user, setUser] = useState(localStorage.getItem("User") | "")
 	// useEffect(() => {
 	// 	const fetchData = async () => {
 	// 		try {
@@ -28,22 +29,31 @@ function App() {
 	// 	}
 	// }, [])
 
-	const handleLogin = () => {
+	useEffect(() => {
+		setUser(localStorage.getItem("User"))
+	}, [user])
+
+	const handleLogin = (username) => {
 		localStorage.setItem("loggedIn", true);
+		localStorage.setItem("User", username)
 		setLoggedIn(JSON.parse(localStorage.getItem("loggedIn")));
+		setUser(localStorage.getItem("User"));
 	};
 
 	// Function to handle logout
 	const handleLogout = () => {
 		localStorage.setItem("loggedIn", false);
+		localStorage.setItem("User", "");
 		setLoggedIn(JSON.parse(localStorage.getItem("loggedIn")));
+		setUser(localStorage.getItem("User"));
 	};
 
-	console.log(loggedIn);
+	console.log(user)
+
 	return (
 		<>
 			<Routes>
-				<Route path="/" element={loggedIn ? <Home onLogout={handleLogout} /> : <DummyHome />} />
+				<Route path="/" element={loggedIn ? <Home onLogout={handleLogout} user={user} /> : <DummyHome />} />
 
 				<Route path="login" element={<Login onlogin={handleLogin} />} />
 				<Route path="register" element={<Register onlogin={handleLogin} />} />

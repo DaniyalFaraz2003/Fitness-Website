@@ -5,10 +5,10 @@ import Hero from './HomeComponents/Hero'
 import Hero2 from './HomeComponents/Hero2'
 import Explore from './HomeComponents/Explore'
 
-function Home({ onLogout }) {
+function Home({ onLogout, user }) {
     return (
         <div>
-            <Navbar onLogout={onLogout} />
+            <Navbar onLogout={onLogout} user={user} />
             <Hero />
             <Hero2 />
             <Explore />

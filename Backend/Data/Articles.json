@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "author": "John Doe",
+    "title": "First Article",
+    "body": "This is the content of the first article.",
+    "DatePublished": "2024-04-08T00:00:00.000Z"
+  },
+  {
+    "id": "72007acb-d3fc-417d-8d8e-521adb270d57",
+    "author": "John Doe",
+    "title": "New Article",
+    "body": "This is the content of the new article.",
+    "DatePublished": "2024-04-09T11:29:34.329Z"
+  }
+]
