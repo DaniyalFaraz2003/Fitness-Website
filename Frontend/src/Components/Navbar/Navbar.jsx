@@ -11,7 +11,7 @@ export default function Navbar() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                             d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
                     </svg>
-                    <h1 class=" ml-4 text-indigo-500 text-2xl font-extrabold justify-center self-center text-center ">Pro Fitness</h1>
+                    <h1 className=" ml-4 text-indigo-500 text-2xl font-extrabold justify-center self-center text-center ">Pro Fitness</h1>
                 </div>
                 <div className="text-gray-500 order-3 w-full md:w-auto md:order-2">
                     <ul className="flex font-semibold justify-between">
