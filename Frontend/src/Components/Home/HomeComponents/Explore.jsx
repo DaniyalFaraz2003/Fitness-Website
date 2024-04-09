@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { Html, useProgress } from "@react-three/drei";
 import { motion } from 'framer-motion'
@@ -100,69 +100,102 @@ const SectionWrapper = (Component, idName) => function HOC() {
     );
 }
 
-const ToolCard = ({ index, name, testimonial, designation, company, image }) => {
-	return (
-		<motion.div variants={fadeIn("", "spring", index * 0.5, 0.75)} className=' bg-gray-100 p-10 rounded-3xl xs:w-[320px] w-full'>
-			<p className='blue-text-gradient font-black text-[48px]'>"</p>
-			<div className='mt-1'>
-				<p className='blue-text-gradient tracking-wider text-[18px]'>{testimonial}</p>
-				<div className='mt-7 flex justify-between items-center gap-1'>
-					<div className='flex-1 flex flex-col'>
-						<p className='blue-text-gradient font-medium text-[16px]'><span className='blue-text-gradient'>@</span>{name}</p>
-						<p className='mt-1 text-secondary text-[12px]'>{designation} of {company}</p>
-					</div>
-					<img src={image} alt={`feedback-by-${name}`} className='w-10 h-10 rounded-full object-cover'/>
-				</div>
-			</div>
-		</motion.div>
-	);
+
+
+const ToolCard = () => {
+    const [activeTab, setActiveTab] = useState('home'); // State to manage active tab
+
+    // Function to handle tab change
+    const handleTabChange = (tab) => {
+        setActiveTab(tab);
+    };
+
+    return (
+        <motion.div variants={fadeIn("", "spring", 0 * 0.5, 0.75)} className='p-6 rounded-lg transition duration-300 transform hover:-translate-y-1 cursor-pointer'>
+
+            <div className="p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1 cursor-pointer">
+                <div className="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div className="flex flex-wrap justify-center items-center bg-gray-100 border-b border-gray-200 py-2">
+                        <button
+                            onClick={() => handleTabChange('home')}
+                            className={`px-4 py-2 mx-2 my-1 rounded-lg uppercase font-medium text-xs focus:outline-none transition-colors duration-300 ${activeTab === 'home' ? 'bg-gradient-to-r from-blue-400 to-purple-600 text-white' : 'text-gray-600 hover:bg-gray-200'}`}
+                        >
+                            Home
+                        </button>
+                        <button
+                            onClick={() => handleTabChange('profile')}
+                            className={`px-4 py-2 mx-2 my-1 rounded-lg uppercase font-medium text-xs focus:outline-none transition-colors duration-300 ${activeTab === 'profile' ? 'bg-gradient-to-r from-blue-400 to-purple-600 text-white' : 'text-gray-600 hover:bg-gray-200'}`}
+                        >
+                            Profile
+                        </button>
+                        <button
+                            onClick={() => handleTabChange('disabled')}
+                            className={`px-4 py-2 mx-2 my-1 rounded-lg uppercase font-medium text-xs focus:outline-none transition-colors duration-300 ${activeTab === 'disabled' ? 'bg-gradient-to-r from-blue-400 to-purple-600 text-white' : 'text-gray-600 hover:bg-gray-200'}`}
+                        >
+                            Disabled
+                        </button>
+                    </div>
+                    <div className="p-6">
+                        {activeTab === 'home' && (
+                            <>
+                                <h5 className="mb-2 text-xl font-medium leading-tight">Home Content</h5>
+                                <p className="mb-4 text-base">Content related to Home tab.</p>
+                            </>
+                        )}
+                        {activeTab === 'profile' && (
+                            <>
+                                <h5 className="mb-2 text-xl font-medium leading-tight">Profile Content</h5>
+                                <p className="mb-4 text-base">Content related to Profile tab.</p>
+                            </>
+                        )}
+                        {activeTab === 'disabled' && (
+                            <>
+                                <h5 className="mb-2 text-xl font-medium leading-tight">Disabled Content</h5>
+                                <p className="mb-4 text-base">Content related to Disabled tab.</p>
+                            </>
+                        )}
+                    </div>
+                </div>
+            </div>
+        </motion.div>
+    );
 }
 
+
 const Tools = ({ tools }) => {
-	return (
-		<div style={{
+    return (
+        <div style={{
             background: "linear-gradient(90deg, rgba(131, 126, 226, 1) 24%, rgba(114, 114, 226, 1) 58%, rgba(0, 212, 255, 1) 100%)"
         }} className='mt-12 rounded-[20px]'>
-			<div className={`sm:px-16 px-6 sm:py-16 py-10 bg-tertiary rounded-2xl min-h-[300px]`}>
-				<motion.div variants={textVariant()}>
-					<h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">Tools.</h2>
-				</motion.div>
-			</div>
-			<div className={`sm:px-16 px-6 -mt-20 pb-14 flex flex-col md:flex-row lg:flex-row gap-7`}>
-                {tools.map((tool, index) => {
-                    return <ToolCard key={tool.name} index={index} {...tool} />;
-                })}
+            <div className={`sm:px-16 px-6 sm:py-16 py-10 bg-tertiary rounded-2xl`}>
+                <motion.div variants={textVariant()}>
+                    <h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">Tools.</h2>
+                </motion.div>
             </div>
+            <div className={`sm:px-16 px-6 pb-14 w-full h-full self-center justify-self-center`}>
+                <ToolCard />
+            </div>  
 
-		</div>
-	)
+        </div>
+    )
 }
 
 function Explore() {
     const tools = [
         {
-            testimonial:
-                "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-            name: "Sara Lee",
-            designation: "CFO",
-            company: "Acme Co",
-            image: "https://randomuser.me/api/portraits/women/4.jpg",
+            title: 'Latest Articles',
+            description: 'Stay updated with the latest articles on fitness, nutrition, and healthy living.',
+            icon: 'article_icon.png',
         },
         {
-            testimonial:
-                "I've never met a web developer who truly cares about their clients' success like Rick does.",
-            name: "Chris Brown",
-            designation: "COO",
-            company: "DEF Corp",
-            image: "https://randomuser.me/api/portraits/men/5.jpg",
+            title: 'Exercise Routine Getter',
+            description: 'Find the perfect workout routine tailored to your fitness goals and preferences.',
+            icon: 'exercise_icon.png',
         },
         {
-            testimonial:
-                "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-            name: "Lisa Wang",
-            designation: "CTO",
-            company: "456 Enterprises",
-            image: "https://randomuser.me/api/portraits/women/6.jpg",
+            title: 'Calculators',
+            description: 'Calculate your BMI, body fat percentage, and more with our handy calculators.',
+            icon: 'calculator_icon.png',
         },
     ];
     const nutrients = [
@@ -182,7 +215,7 @@ function Explore() {
             name: "vitamins",
             icon: vitamins
         },
-        
+
     ]
     return (
         <>
