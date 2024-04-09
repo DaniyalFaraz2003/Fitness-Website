@@ -1,17 +1,17 @@
-import { Link } from "react-router-dom";
 import React from "react";
-import { useState } from "react";
-import { useEffect } from "react";
-import Navbar from "../Navbar/Navbar";
+import Navbar from "../Navbar/NavbarHome";
 import Footer from "../Footer/Footer";
+import Hero from './HomeComponents/Hero'
+import Hero2 from './HomeComponents/Hero2'
+import Explore from './HomeComponents/Explore'
 
 function Home({ onLogout }) {
     return (
         <div>
-            <Navbar />
-            <h1>This is the main home page</h1>
-            <Link to="about">Click to view our about page</Link>
-            <button onClick={onLogout}>Logout</button>
+            <Navbar onLogout={onLogout} />
+            <Hero />
+            <Hero2 />
+            <Explore />
             <Footer />
         </div>
     );

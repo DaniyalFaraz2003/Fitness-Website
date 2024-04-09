@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
+import Navbar from "../Navbar/NavbarDummy";
 
 export default function _404() {
     return (

@@ -3,6 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { Html, useProgress } from "@react-three/drei";
 import { motion } from 'framer-motion'
 import { fadeIn, textVariant, staggerContainer } from './motion'
+import { Link } from "react-router-dom";
 import {
     Decal,
     Float,
@@ -15,6 +16,10 @@ import carb from "../../../../public/carb.png"
 import fats from "../../../../public/fats.png"
 import protein from "../../../../public/protein.png"
 import vitamins from "../../../../public/vitamins.png"
+
+import articles from "../../../../public/application.png"
+import calculator from "../../../../public/calculator.png"
+import cogwheel from "../../../../public/cogwheel.png"
 
 
 const CanvasLoader = () => {
@@ -100,10 +105,46 @@ const SectionWrapper = (Component, idName) => function HOC() {
     );
 }
 
+const ToolDescription = ({ title, description, icon, link }) => {
+    return (
+        <div className="p-6 bg-white">
+            <div className="flex flex-col justify-center items-center">
+                <h5 className="mb-2 text-2xl font-bold text-blue-600">{title}</h5>
+                <p className="mb-4 text-lg text-gray-700">{description}</p>
+                <img src={icon} alt={title} className="w-16 h-16 mb-4" />
+                <Link to={`/${link}`}>
+                    <button className="bg-blue-600 text-blue-100 px-6 py-2 rounded-lg uppercase font-semibold text-sm shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50 transition duration-300 transform hover:-translate-y-1 hover:scale-105">
+                        Check It Out {'->'}
+                    </button>
+                </Link>
+            </div>
+        </div>
+    );
+};
 
 
 const ToolCard = () => {
-    const [activeTab, setActiveTab] = useState('home'); // State to manage active tab
+    const tools = [
+        {
+            title: 'Latest Articles',
+            description: 'Stay updated with the latest articles on fitness, nutrition, and healthy living.',
+            icon: articles,
+            link: "nutrition"
+        },
+        {
+            title: 'Exercise Routine Getter',
+            description: 'Find the perfect workout routine tailored to your fitness goals and preferences.',
+            icon: cogwheel,
+            link: "fitness"
+        },
+        {
+            title: 'Calculators',
+            description: 'Calculate your BMI, body fat percentage, and more with our handy calculators.',
+            icon: calculator,
+            link: "calculators"
+        },
+    ];
+    const [activeTab, setActiveTab] = useState('Articles'); // State to manage active tab
 
     // Function to handle tab change
     const handleTabChange = (tab) => {
@@ -117,42 +158,33 @@ const ToolCard = () => {
                 <div className="bg-white rounded-lg shadow-md overflow-hidden">
                     <div className="flex flex-wrap justify-center items-center bg-gray-100 border-b border-gray-200 py-2">
                         <button
-                            onClick={() => handleTabChange('home')}
-                            className={`px-4 py-2 mx-2 my-1 rounded-lg uppercase font-medium text-xs focus:outline-none transition-colors duration-300 ${activeTab === 'home' ? 'bg-gradient-to-r from-blue-400 to-purple-600 text-white' : 'text-gray-600 hover:bg-gray-200'}`}
+                            onClick={() => handleTabChange('Articles')}
+                            className={`px-4 py-2 mx-2 my-1 rounded-lg uppercase font-medium text-xs focus:outline-none transition-colors duration-300 ${activeTab === 'Articles' ? 'bg-gradient-to-r from-blue-400 to-purple-600 text-white' : 'text-gray-600 hover:bg-gray-200'}`}
                         >
-                            Home
+                            Articles
                         </button>
                         <button
-                            onClick={() => handleTabChange('profile')}
-                            className={`px-4 py-2 mx-2 my-1 rounded-lg uppercase font-medium text-xs focus:outline-none transition-colors duration-300 ${activeTab === 'profile' ? 'bg-gradient-to-r from-blue-400 to-purple-600 text-white' : 'text-gray-600 hover:bg-gray-200'}`}
+                            onClick={() => handleTabChange('Generator')}
+                            className={`px-4 py-2 mx-2 my-1 rounded-lg uppercase font-medium text-xs focus:outline-none transition-colors duration-300 ${activeTab === 'Generator' ? 'bg-gradient-to-r from-blue-400 to-purple-600 text-white' : 'text-gray-600 hover:bg-gray-200'}`}
                         >
-                            Profile
+                            Generator
                         </button>
                         <button
-                            onClick={() => handleTabChange('disabled')}
-                            className={`px-4 py-2 mx-2 my-1 rounded-lg uppercase font-medium text-xs focus:outline-none transition-colors duration-300 ${activeTab === 'disabled' ? 'bg-gradient-to-r from-blue-400 to-purple-600 text-white' : 'text-gray-600 hover:bg-gray-200'}`}
+                            onClick={() => handleTabChange('Calculators')}
+                            className={`px-4 py-2 mx-2 my-1 rounded-lg uppercase font-medium text-xs focus:outline-none transition-colors duration-300 ${activeTab === 'Calculators' ? 'bg-gradient-to-r from-blue-400 to-purple-600 text-white' : 'text-gray-600 hover:bg-gray-200'}`}
                         >
-                            Disabled
+                            Calculators
                         </button>
                     </div>
                     <div className="p-6">
-                        {activeTab === 'home' && (
-                            <>
-                                <h5 className="mb-2 text-xl font-medium leading-tight">Home Content</h5>
-                                <p className="mb-4 text-base">Content related to Home tab.</p>
-                            </>
+                        {activeTab === 'Articles' && (
+                            <ToolDescription {...tools[0]} />
                         )}
-                        {activeTab === 'profile' && (
-                            <>
-                                <h5 className="mb-2 text-xl font-medium leading-tight">Profile Content</h5>
-                                <p className="mb-4 text-base">Content related to Profile tab.</p>
-                            </>
+                        {activeTab === 'Generator' && (
+                            <ToolDescription {...tools[1]} />
                         )}
-                        {activeTab === 'disabled' && (
-                            <>
-                                <h5 className="mb-2 text-xl font-medium leading-tight">Disabled Content</h5>
-                                <p className="mb-4 text-base">Content related to Disabled tab.</p>
-                            </>
+                        {activeTab === 'Calculators' && (
+                            <ToolDescription {...tools[2]} />
                         )}
                     </div>
                 </div>
@@ -162,7 +194,7 @@ const ToolCard = () => {
 }
 
 
-const Tools = ({ tools }) => {
+const Tools = () => {
     return (
         <div style={{
             background: "linear-gradient(90deg, rgba(131, 126, 226, 1) 24%, rgba(114, 114, 226, 1) 58%, rgba(0, 212, 255, 1) 100%)"
@@ -174,30 +206,13 @@ const Tools = ({ tools }) => {
             </div>
             <div className={`sm:px-16 px-6 pb-14 w-full h-full self-center justify-self-center`}>
                 <ToolCard />
-            </div>  
+            </div>
 
         </div>
     )
 }
 
 function Explore() {
-    const tools = [
-        {
-            title: 'Latest Articles',
-            description: 'Stay updated with the latest articles on fitness, nutrition, and healthy living.',
-            icon: 'article_icon.png',
-        },
-        {
-            title: 'Exercise Routine Getter',
-            description: 'Find the perfect workout routine tailored to your fitness goals and preferences.',
-            icon: 'exercise_icon.png',
-        },
-        {
-            title: 'Calculators',
-            description: 'Calculate your BMI, body fat percentage, and more with our handy calculators.',
-            icon: 'calculator_icon.png',
-        },
-    ];
     const nutrients = [
         {
             name: "carb",
@@ -232,7 +247,7 @@ function Explore() {
                         })}
                     </div>
                 </div>
-                <Tools tools={tools} />
+                <Tools />
             </div>
         </>
     )

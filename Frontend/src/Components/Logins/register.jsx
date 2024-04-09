@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 import { useState } from "react";
-import Navbar from "../Navbar/Navbar";
+import Navbar from "../Navbar/NavbarDummy";
 import { Link } from "react-router-dom";
 
 export default function Register({ onlogin }) {
