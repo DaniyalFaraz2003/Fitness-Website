@@ -12,5 +12,19 @@
     "title": "New Article",
     "body": "This is the content of the new article.",
     "DatePublished": "2024-04-09T11:29:34.329Z"
+  },
+  {
+    "id": "8cb98b72-5cec-433f-a2e9-47ea12c2d613",
+    "title": "Good article",
+    "author": "Daniyal Faraz",
+    "body": "Good eating keeps you healthy",
+    "DatePublished": "2024-04-09T17:06:56.247Z"
+  },
+  {
+    "id": "8cb0d164-7934-49f0-bb60-9f4fd6cee398",
+    "title": "Healthy Eating",
+    "author": "daniyal123",
+    "body": "This is a good article on healthy eating habits",
+    "DatePublished": "2024-04-09T17:14:29.224Z"
   }
 ]

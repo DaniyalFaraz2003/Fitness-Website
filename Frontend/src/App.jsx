@@ -58,9 +58,9 @@ function App() {
 				<Route path="login" element={<Login onlogin={handleLogin} />} />
 				<Route path="register" element={<Register onlogin={handleLogin} />} />
 
-				<Route path="/nutrition" element={loggedIn ? <Nutrition /> : <_404 />} />
-				<Route path="/fitness" element={loggedIn ? <Fitness /> : <_404 />} />
-				<Route path="/calculators" element={loggedIn ? <Calculators /> : <_404 />} />
+				<Route path="/nutrition" element={loggedIn ? <Nutrition onLogout={handleLogout} user={user} /> : <_404 />} />
+				<Route path="/fitness" element={loggedIn ? <Fitness onLogout={handleLogout} user={user} /> : <_404 />} />
+				<Route path="/calculators" element={loggedIn ? <Calculators onLogout={handleLogout} user={user} /> : <_404 />} />
 
 			</Routes>
 		</>
