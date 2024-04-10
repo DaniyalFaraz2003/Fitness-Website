@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../../Navbar/NavbarHome"
 import Footer from "../../Footer/Footer";
 import ArticleForm from "./ArticleForm";
@@ -20,10 +20,10 @@ export default function Nutrition({ onLogout, user }) {
             </div>
 
             <div>
-                <ArticleForm user={user} />
+                <ArticleForm user={user}  />
             </div>
             <div>
-                <ArticlesFeed />
+                <ArticlesFeed user={user}  />
             </div>
             <Footer />
         </>

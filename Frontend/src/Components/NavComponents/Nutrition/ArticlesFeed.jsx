@@ -2,26 +2,35 @@ import React, { useState, useEffect } from "react";
 import axios from "axios"
 import Article from "./Article";
 
-const ArticlesFeed = () => {
+const ArticlesFeed = ({ user }) => {
     const [selectedFilter, setSelectedFilter] = useState("allArticles");
     const [articles, setArticles] = useState([])
+    
+
+    const getArticles = async () => {
+        try {
+            const response = await axios.get("http://localhost:5000/api/v1/articles");
+            setArticles(response.data);
+        } catch (error) {
+            console.log("Error fetching articles...", error);
+        }
+    }
 
     useEffect(() => {
-        const getArticles = async () => {
-            try {
-                const response = await axios.get("http://localhost:5000/api/v1/articles");
-                setArticles(response.data);
-            } catch (error) {
-                console.log("Error fetching articles...", error);
-            }
-        }
-
         getArticles();
     }, [])
 
     const handleFilterChange = (event) => {
         setSelectedFilter(event.target.value);
     };
+
+    useEffect(() => {
+        if (selectedFilter == "userArticles") {
+            setArticles(articles.filter((article) => article.author == user));
+        } else {
+            getArticles();
+        }
+    }, [selectedFilter])
 
     console.log(articles);
 
@@ -63,7 +72,7 @@ const ArticlesFeed = () => {
                 background: "linear-gradient(90deg, rgba(131, 126, 226, 1) 24%, rgba(114, 114, 226, 1) 58%, rgba(0, 212, 255, 1) 100%)"
             }} className="mt-10 p-5 gap-2">
                 {articles.map((article) => {
-                    return <Article title={article.title} content={article.body} author={article.author} date={article.DatePublished} />
+                    return <Article id={article.id} user={user} title={article.title} content={article.body} author={article.author} date={article.DatePublished} />
                 })}
             </div>
         </div>
