@@ -1,0 +1,1220 @@
+{
+    "workouts": {
+        "15": {
+            "Beginner": {
+                "Muscle": [
+                    {
+                        "name": "Lunge - Dumbbell",
+                        "amount": "1 x 12",
+                        "instructions": "MOVEMENT: Step forward onto your heel, keeping your knee behind and in line with your toes and your hips level. Brace through your stomach and do not allow your lower back to round. Descend until just before your knee touches the floor. Then - pressing through your heel and not the toes - step back to the start position. Perform the desired number of repetitions and repeat with your opposite leg. Keep your elbows straight and use the muscles of your core to maintain stability. REPETITIONS: Perform all prescribed reps on one side, then on the other. This counts as one set."
+                    },
+                    {
+                        "name": "Pendulum",
+                        "amount": "1 x 12",
+                        "instructions": "SET-UP: This exercise may be performed with bodyweight alone or with dumbbells or kettlebells. If you use the latter, begin by placing them side-by-side in front of you. Step between them with your leading foot. If flexibility prevents lifting from the floor, start with the weights at your sides while standing. LIFT: With the weight on your working leg, and your off leg extending backwards for balance, bend at the hips, while keeping a neutral spinal curve. Descend until your chest is parallel to the floor, then return to the starting position. EMPHASIS: Brace through your core at all times. Keep a neutral spine throughout the duration of the movement - if a neutral spine cannot be maintained, either reduce the weight or shorten the range of motion. REPETITIONS: Perform all prescribed reps on one side, then on the other. This counts as one set."
+                    },
+                    {
+                        "name": "Towel Curls",
+                        "amount": "1 x 12",
+                        "instructions": "SET-UP: Find a long towel, rope or an otherwise suitably strong material. Brace through your core and establish a neutral spine. Grasp the towel with one hand at each end, and fix the bottom underneath the middle of one of your feet. MOVEMENT: Curl your arms up to your chest, keeping your elbows at your side and eyes straight ahead. Use your leg to press against the towel and provide appropriate tension throughout the range of motion of the exercise. Do not let your upper back round over - consciously pull your shoulder blades together to provide a stable base for your arms to pull from. It may take a few practice reps, or even sets, to get the feel of this exercise. EMPHASIS: Do not swing - keep your core tight and a neutral spine."
+                    },
+                    {
+                        "name": "Heel Walk",
+                        "amount": "2 x 8",
+                        "instructions":"MOVEMENT: Simply walk with good, upright posture, flexing your shins so that your toes point upwards, and gently stepping on your heels. REPETITIONS: When both legs have completed one full step, this counts as one repetition. OPTIONAL WEIGHTING: Dumbbells may be used to make the exercise more challenging."
+                    },
+                    {
+                        "name": "Bodyweight Squat - Partial",
+                        "amount": "1 x 25",
+                        "instructions":"SET-UP: Set your feet slightly wider than shoulder width, brace your stomach and establish a neutral spine posture. Raise your chest up and look forwards and slightly upwards. LIFT: Start the movement as if you were about to sit down, pushing your hips down and back. Descend as far as you can without excessive rounding of the back and without the knees caving inwards. Make sure your knees track in line with your toes and do not let your knees push forward in front of your toes. Attempt to spread the floor with your feet as you rise back up to the start position. EMPHASIS: Brace through your core and try to keep your spine neutral throughout the duration of the movement. Do not let the knees cave inward on the movement."
+                    },
+                    {
+                        "name": "Eqi Push-Up Hold",
+                        "amount": "1 x 50 seconds",
+                        "instructions":"SET-UP: Set up with your hands slightly wider than shoulder width - so that the upper arms are tucked at 45-degree angle to the torso - and fingers pointing forward. With the toes together and hips up, establish proper upper body posture with a neutral back. LIFT: Lower your chest until it is just several inches off the floor and hold this position stable for the prescribed time. If form cannot be maintained, break and resume the prescribed time after a short rest. EMPHASIS: Don't allow the hips or the lower back to sag. Keep the elbows close to the body - don't let them flare out to the sides. Don't push the head forward to the floor."
+                    }
+                ],
+                "Strength": [
+                    {
+                        "name": "Bodyweight Squat - Partial",
+                        "amount": "8 x 2 with 30-50%",
+                        "instructions": "SET-UP: Set your feet slightly wider than shoulder width, brace your stomach and establish a neutral spine posture. Raise your chest up and look forwards and slightly upwards. LIFT: Start the movement as if you were about to sit down, pushing your hips down and back. Descend as far as you can without excessive rounding of the back and without the knees caving inwards. Make sure your knees track in line with your toes and do not let your knees push forward in front of your toes. Attempt to spread the floor with your feet as you rise back up to the start position. EMPHASIS: Brace through your core and try to keep your spine neutral throughout the duration of the movement. Do not let the knees cave inward on the movement."
+                    },
+                    {
+                        "name": "Pushup - Wide Hands",
+                        "amount": "4 x 2 with 30-50%",
+                        "instructions": "SET-UP: Set up with your hands wider than shoulder width. With the toes together and hips up, establish proper upper body posture with a neutral back. LIFT: Press the chest off the floor until the arms are straight, then return to the starting position. Cue the descent by attempting to 'pull' yourself down to the floor with your shoulder blades. EMPHASIS: Don't allow the hips or the lower back to sag. Use a complete range of motion, bringing the chest to the floor. Don't push the head forward to the floor."
+                    },
+                    {
+                        "name": "Lunge - Dumbbell",
+                        "amount": "2 x 4 with 80-90%",
+                        "instructions": "MOVEMENT: Step forward onto your heel, keeping your knee behind and in line with your toes and your hips level. Brace through your stomach and do not allow your lower back to round. Descend until just before your knee touches the floor. Then - pressing through your heel and not the toes - step back to the start position. Perform the desired number of repetitions and repeat with your opposite leg. Keep your elbows straight and use the muscles of your core to maintain stability. REPETITIONS: Perform all prescribed reps on one side, then on the other. This counts as one set."
+                    },
+                    {
+                        "name": "Pull Down - Wide-Overhand-Grip",
+                        "amount": "1 x 3 with 80-90%",
+                        "instructions": "SET-UP: Find the pull-down apparatus and a wide grip bar. Attach the bar and adjust the knee rests. Grip the bar near the ends, establish a tight midsection and a neutral spine. LIFT: Pull the bar down until it lightly grazes your chest. Return the weight back to the starting position under control. As you pull, cue yourself to push your elbows down, which will increase involvement from the lats. EMPHASIS: Do not swing - your back should move very little from the starting position. BENEFITS: The primary target of the pulldown is the latissimus dorsi. While the middle back is also involved to a lesser degree in the exercise, the vertical nature of the pull tends to take the muscles of the mid back out of the movement."
+                    }
+                ],
+                "Speed": [
+                    {
+                        "name": "Lateral Shuffle Splits",
+                        "amount": "1 x 20",
+                        "instructions": "MOVEMENT: Cycle your legs alternately from side to side. On your first jump your right foot will pass in front of your body while your left will pass behind. On the next jump this will be reversed."
+                    },
+                    {
+                        "name": "Overhead Presses - Dumbbells, Alternating Arms",
+                        "amount": "7 x 3 with 30-50%",
+                        "instructions": "SET-UP: With two dumbbells set your feet to roughly shoulder width. Brace your core with a neutral spine, and grasp the dumbbells using an overhand, shoulder-width grip. LIFT: Bracing through your core, push the weight in your left hand overhead, just shy of locking your elbow at the top. Return the weight under control, and lift the other side. EMPHASIS: Keep your core and back strong while maintaining natural spine position. While your legs, core and back should work to stabilize the movement, do not drive through the legs or use momentum to complete the lift. REPETITIONS: When both arms have been raised, this counts as one repetition."
+                    },
+                    {
+                        "name": "Pushup",
+                        "amount": "5 x 2 with 30-50%",
+                        "instructions": "SET-UP: With the legs together and hips up, establish proper upper body posture with a neutral back. Place your hands on the floor at slightly wider than shoulder width - so that the upper arms are tucked at 45-degree angle to the torso - with fingers pointing forward. MOVEMENT: Press the chest off the floor until the arms are straight, then return to the starting position. Cue the descent by attempting to pull yourself down to the floor with your shoulder blades. OPTIONAL WEIGHTING: External resistance may be added to the exercise through the use of a weight vest, chains, or even a sturdy loaded back-pack."
+                    }
+                ],
+                "Mobility": [
+                    {
+                        "name": "Split-Stance Kneeling Adductor Mobilizations",
+                        "amount": "1 x 8",
+                        "instructions": "SET-UP: Begin on all fours with your knees resting on a pad. Now straighten and extend one leg out to the side with the side of your foot in contact with floor. MOVEMENT: Keeping your back neutral, simply move your hips forward. Now slowly pull them backwards and slightly to the side of your bent knee. Perform for desired repetitions and repeat on the opposite side. REPETITIONS: Perform all prescribed reps on one side, then on the other. This counts as one set."
+                    },
+                    {
+                        "name": "Reach, Roll And Lift",
+                        "amount": "2 x 10",
+                        "instructions": "MOVEMENT: Sit back on your heels and place your forearms and hands flat on the ground. Take one hand and reach out to full extension. At full extension, turn the palm over to face upwards. Lift the arm a few inches off the ground and hold for several seconds. Return to the start and switch arms. REPETITIONS: Once both arms have been raised, this counts as one repetition."
+                    },
+                    {
+                        "name": "Split Stance Pec Mobilization With Staff",
+                        "amount": "2 x 10",
+                        "instructions": "SET-UP: To begin the movement find a broomstick or staff - a foam roller or other light long rod will also suffice. Place the staff against the palm of one hand and grasp the staff's other end with your other hand. MOVEMENT: Stand tall and assume a split-stance, with one leg several feet in front of the other. With your torso upright press your hips forward and extend the arm of the front leg upwards and outwards. Use your other hand to gently press the staff into the palm of your extended hand. Return the arm and staff to the start position and repeat rhythmically, switch sides when you have finished. REPETITIONS: Perform all prescribed reps on one side, then on the other. This counts as one set."
+                    },
+                    {
+                        "name": "Overhead Lunge Walk",
+                        "amount": "1 x 8",
+                        "instructions": "MOVEMENT: Perform a walking lunge keeping your arms extended straight overhead with your back neutral and upright. Do not allow your knee to pass over your toes and make sure the knee tracks in line with the foot. REPETITIONS: When both legs have completed one full step, this counts as one repetition."
+                    }
+                ],
+                "Flexibility": [
+                    {
+                        "name": "Overhead Reach",
+                        "amount": "2 x 40 seconds",
+                        "instructions": "MOVEMENT: Standing straight, gently lift and extend arms straight over head, as comfort and range of motion will allow. Hold for the desired time."
+                    },
+                    {
+                        "name": "Forearm Stretch",
+                        "amount": "1 x 55 seconds",
+                        "instructions": "MOVEMENT: Extend one arm straight out in front of you with your palm facing up. Take the other hand and gently pull the fingers of your outstretched hand downward. Hold for allotted time and repeat on the other side. Keep your shoulder blades retracted throughout the movement and do not flare your shoulder forward. REPETITIONS: Hold for the full prescribed time on one side, then switch sides and repeat. This counts as one set."
+                    },
+                    {
+                        "name": "One-Arm Lat Stretch",
+                        "amount": "1 x 25 seconds",
+                        "instructions": "MOVEMENT: Grasp an immovable object such as a doorframe or a Smith Machine. Sit back from the hips with arm extended. Gently rotate away from the object to increase the stretch. REPETITIONS: Hold for the full prescribed time on one side, then switch sides and repeat. This counts as one set."
+                    },
+                    {
+                        "name": "Bicep Wall Stretch",
+                        "amount": "1 x 25 seconds",
+                        "instructions": "MOVEMENT: Stand facing close to a wall and gently extend the arm towards it. Finding a spot that provides a gentle to moderate stretch, place the palm against the wall and very slowly and gently rotate the chest until the arm is parallel to the wall or the stretch is no longer comfortable. The hand may be placed higher or lower to shift the emphasis of the stretch. REPETITIONS: Hold for the full prescribed time on one side, then switch sides and repeat. This counts as one set."
+                    },
+                    {
+                        "name": "Shoulder Stretch With Towel",
+                        "amount": "1 x 55 seconds",
+                        "instructions": "MOVEMENT: Stand tall with shoulder blades together, grasping a towel at one end in your off hand. Gently move the working arm behind the body, and grasp the opposite end of the towel. Gently pull upwards until you feel a stretch in the rear of the shoulder. Hold and repeat on the opposite side. REPETITIONS: Hold for the full prescribed time on one side, then switch sides and repeat. This counts as one set."
+                    },
+                    {
+                        "name": "Prone Quadricep Stretch",
+                        "amount": "2 x 40 seconds",
+                        "instructions": "MOVEMENT: Lie prone on your stomach with both legs extended straight. Gently flex one knee and raise the heel towards your butt. With the hand on the same side of the body reach back and grasp your ankle. Now pull the ankle towards your butt, not allowing the thigh of that leg to leave the ground or your lower back to hyper-extend. If you cannot touch your heel to your butt, your quadriceps are very likely tight. REPETITIONS: Hold for the full prescribed time on one side, then switch sides and repeat. This counts as one set."
+                    }
+                ],
+                "Cardio": [
+                    {
+                        "name": "Bicycling",
+                        "amount": "10 min all out",
+                        "instructions": "SET-UP: Make sure your saddle is at an appropriate height, the brakes work and the bike is otherwise properly maintained. MOVEMENT: While the basic movement of cycling is rather straightforwards, a few tips are useful to keep in mind. 1) Keep your feet flat, neither excessively dorsiflexed or plantarflexed. 2) The strongest portion of the cycling movement is always the push phase, but it is critically important to generate power on the lifting and pull phase as well. 3) Keep your elbows, shoulders, and hands slightly relaxed. 4) Do not allow your head to droop, but also do not hyperextend the neck up and back."
+                    },
+                    {
+                        "name": "Elliptical",
+                        "amount": "4 x (50, 70) sec",
+                        "instructions": "LIFT: Follow the instructions on the machine - each make and model will be subtly different"
+                    },
+                    {
+                        "name": "Rowing",
+                        "amount": "5 min moderate",
+                        "instructions": "MOVEMENT: Catch, drive, finish, recovery. Initiate the rowing stroke with the legs, followed by the torso, finishing with the arms. Bring the handle to the bottom of the chest on each stroke. On the recovery of the stroke the arms should come forward first, followed by the torso followed by the legs. Start the knee bend and leg recovery only after the handle has past the knees. Be sure to generate as much range of motion in the legs as you can, while avoiding excessive flexion in the trunk. CAUTION: If you have a history of flexion-intolerance in your back (and you are not a professional rower), the row is a poor choice and you should swap this exercise for an extension-based conditioning exercise like swimming."
+                    }
+                ]
+            },
+            "Intermediate": {
+                "Muscle": [
+                    {
+                        "name": "Lunge - Barbell",
+                        "amount": "1 x 8",
+                        "instructions": "MOVEMENT: Step forward onto your heel, keeping your knees in line with your toes and your hips level. Brace through your stomach and do not allow your lower back to round. Descend until just before your knee touches the floor, then - pressing your your heel and not the toes - step back to the start position. Perform the desired number of repetitions and repeat with your opposite leg. REPETITIONS: Perform all prescribed reps on one side, then on the other. This counts as one set."
+                    },
+                    {
+                        "name": "Lunge - Barbell, Walking",
+                        "amount": "1 x 12",
+                        "instructions": "LIFT: Step forward and, keeping your upper body tight and your spine neutral, descend until your knee is almost touching the floor. Rise and stand on the forward leg, while striding your back foot forward and ahead - repeat with the new forward leg. REPETITIONS: When both legs have completed one full step, this counts as one repetition."
+                    },
+                    {
+                        "name": "One-Leg Dumbbell Squat With Back Leg Elevated",
+                        "amount": "2 x 8",
+                        "instructions": "SET-UP: Find a bench or other suitable object roughly one to two feet high, and clear a space of about 6 feet. Plant your working foot roughly several feet in front of the bench, and place the top of your stabilizing foot flat on the bench. LIFT: Bracing through your core, descend to a point just before your knee touches the floor. Quickly reverse the motion. EMPHASIS: Brace through your core at all times. Keep a neutral spine throughout the duration of the movement. The knee of the working, forward leg should be in-line with the toe of the working foot. If stability cannot be maintained, switch to the bodyweight version and try using support from a forward-positioned stable structure. REPETITIONS: Perform all prescribed reps on one side, then on the other. This counts as one set."
+                    },
+                    {
+                        "name": "Decline One-Leg Toe Raises",
+                        "amount": "1 x 8",
+                        "instructions": "SET-UP: Put a calf-raise box or other firm, flat elevated object next to a support. Set up with your heel on the box and your toes off it. LIFT: Lift your toes up toward your shins, then let the toes move down past your heels. REPETITIONS: Perform all prescribed reps on one side, then on the other. This counts as one set. OPTIONAL WEIGHTING: Once the exercise is no longer challenging with just bodyweight, you may also weight the exercise with vests or chains, or by carrying a dumbbell in one hand."
+                    },
+                    {
+                        "name": "Overhead Presses - Dumbbells, Both Arms Together",
+                        "amount": "1 x 20",
+                        "instructions": "SET-UP: With two dumbbells set your feet to roughly shoulder width. Brace your core with a neutral spine, and using an overhand, shoulder-width, grasp the dumbbells and lift them to your shoulders. LIFT: Bracing through your core, push the weights overhead, just shy of locking your elbows at the top. Return the weights to your shoulders under control. EMPHASIS: Keep your core and back strong while maintaining natural spine position. While your legs, core and back should work to stabilize the movement, do not drive through the legs or use momentum to complete the lift."
+                    },
+                    {
+                        "name": "Pull Down - Wide-Underhand-Grip",
+                        "amount": "1 x 30",
+                        "instructions": "SET-UP: Find the pull-down apparatus and a wide grip bar. Attach the bar and adjust the knee rests. Take a wide underhand grip on the bar and establish a tight midsection and a neutral spine. LIFT: Pull the bar down until it lightly grazes your chest. Return the weight back to the starting position under control. As you pull, cue yourself to push your elbows down, which will increase involvement from the lats. EMPHASIS: Do not swing - your back should move very little from the starting position. BENEFITS: The primary target of the pulldown is the latissimus dorsi. While the middle back is also involved to a lesser degree in the exercise, the vertical nature of the pull tends to take the muscles of the mid back out of the movement."
+                    }
+                ],
+                "Strength": [
+                    {
+                        "name": "Back Squat - Parallel Depth",
+                        "amount": "5 x 2 with 30-50%",
+                        "instructions": "SET-UP: Set up inside of a power-rack and set the safety pins to just above hip-height. Put the bar on pins at a point that is easy to contact, somewhere between your shoulders and the middle of your back. Set your feet slightly wider than shoulder width apart and point your toes out slightly - in-line with your knees. Duck underneath and in front of the bar, raise your chest, brace your stomach and establish a netural spine posture. Grip the bar with your hands at roughly twice shoulder width. Select the grip that gives you the most control and stability. LIFT: From this position lift the bar out of the pins driving through the legs. While maintaining a neutral spine position and tight brace through the core, descend until your upper legs are parallel to the floor. Drive the weight up in a straight-line. EMPHASIS: Brace through your core at all times. Keep a neutral spine throughout the duration of the movement - if a neutral spine cannot be maintained, either reduce the weight or shorten the range of motion. Do not let the knees cave inward on the movement."
+                    },
+                    {
+                        "name": "Bench Press",
+                        "amount": "2 x 4 with 80-90%",
+                        "instructions": "SPECIFIC WARM-UP: Use a series of light sets, getting progressively heavier, to build up to your working weight. SET-UP: Find a spotter. Lie down on the bench with your shoulder blades retracted, your stomach and abs tight and your feet flat on the floor. Grip the bar with a shoulder-width, fully closed and tight grip. LIFT: Lower the bar in a straight line to your chest, keeping the elbows close to the body, until it just slightly touches the chest. Reverse the movement quickly while making sure the bar travels in a straight line back up. EMPHASIS: Keep your shoulder blades together at all times and do not allow your shoulders to roll forward during the movement. Press the bar to your chest, NOT your face. Do not bend your wrists, there should be a straightline through your forearm up to your knuckles. Unrack the weight with straight arms."
+                    },
+                    {
+                        "name": "One-Leg Dumbbell Squat With Back Leg Elevated",
+                        "amount": "2 x 3 with 80-90%",
+                        "instructions": "SET-UP: Find a bench or other suitable object roughly one to two feet high, and clear a space of about 6 feet. Plant your working foot roughly several feet in front of the bench, and place the top of your stabilizing foot flat on the bench. LIFT: Bracing through your core, descend to a point just before your knee touches the floor. Quickly reverse the motion. EMPHASIS: Brace through your core at all times. Keep a neutral spine throughout the duration of the movement. The knee of the working, forward leg should be in-line with the toe of the working foot. If stability cannot be maintained, switch to the bodyweight version and try using support from a forward-positioned stable structure. REPETITIONS: Perform all prescribed reps on one side, then on the other. This counts as one set."
+                    }
+                ],
+                "Speed": [
+                    {
+                        "name": "Low Squat Ankle Jump",
+                        "amount": "3 x 30",
+                        "instructions": "MOVEMENT: Starting from and maintaining a low squat position, bounce rhythmically on your toes and forefeet."
+                    },
+                    {
+                        "name": "Step-Ups - Barbell",
+                        "amount": "5 x 2 with 30-50%",
+                        "instructions": "SET-UP: Find an immovable, sturdy bench or other surface which is roughly knee height. Place one foot flat on the bench with the upper leg angled out a few degrees. MOVEMENT: Keeping the back leg straight, drive upwards through the forward leg and gently place your off-leg onto the bench. Step down under complete control, flexing through the lead knee and bracing through the core. EMPHASIS: The top leg should perform all of the work in the step-up. While pushing with the back leg will allow you to lift more weight, it will degrade the purpose of the exercise. REPETITIONS: Perform all prescribed reps on one side, then on the other. This counts as one set. BENEFITS: Step-Ups are a great exercise for training the VMO (Vastus Medialis Oblique) - one of the component muscles of the quadriceps that crosses the knee joint and is important in maintaining knee stability. If your knees cave inwards while squatting or when landing while jumping, the VMO may be weak and the step-up an excellent choice."
+                    },
+                    {
+                        "name": "Overhead Presses - Dumbbells, Both Arms Together",
+                        "amount": "7 x 2 with 30-50%",
+                        "instructions": "SET-UP: With two dumbbells set your feet to roughly shoulder width. Brace your core with a neutral spine, and using an overhand, shoulder-width, grasp the dumbbells and lift them to your shoulders. LIFT: Bracing through your core, push the weights overhead, just shy of locking your elbows at the top. Return the weights to your shoulders under control. EMPHASIS: Keep your core and back strong while maintaining natural spine position. While your legs, core and back should work to stabilize the movement, do not drive through the legs or use momentum to complete the lift."
+                    },
+                    {
+                        "name": "Cable Row - Seated, Underhand-Grip",
+                        "amount": "1 x 2 with 30-50%",
+                        "instructions": "SET-UP: Sit down at a cable tower with a row attachment. With your knees slightly bent, spine neutral and shoulder blades together, bend at the hips to grasp the handle. Grip the handle underhand at shoulder width. Brace through the core before beginning the movement. LIFT: Pull the handle to your chest, keeping your back upright and tight throughout the movement. Focus on bringing the shoulder blades together at the end of the range of movement. Return to the start position under control, maintaining the same braced position in your torso. EMPHASIS: Do not flex or bend the spine at any point. Keep the hips and lumbar spine locked in place - all of the movement should come from the shoulder blades and in the arms. Also do not push the head forward at the end of the movement - focus on completing the range of motion in the shoulder blades. BENEFITS: The cable row is a great movement for shoulder girdle health and for creating balance in horizontal pulling and pushing (especially for the frequent bench-presser). It is also a bit easier to maintain proper form than in dumbbell, bent-over or chest-supported rows where the tendency and ease of 'cheating' the movement is a bit higher."
+                    }
+                ],
+                "Mobility": [
+                    {
+                        "name": "Fire Hydrants",
+                        "amount": "1 x 8",
+                        "instructions": "MOVEMENT: Start this exercise on all fours on your hands and knees. Keeping your lower back stable and without hyperextending, activate the glute of your right leg and lift it out to the side. Hold at the top, return to the start, and switch legs. REPETITIONS: Perform all prescribed reps on one side, then on the other. This counts as one set."
+                    },
+                    {
+                        "name": "Split-Stance Kneeling Adductor Mobilizations",
+                        "amount": "1 x 8",
+                        "instructions": "SET-UP: Begin on all fours with your knees resting on a pad. Now straighten and extend one leg out to the side with the side of your foot in contact with floor. MOVEMENT: Keeping your back neutral, simply move your hips forward. Now slowly pull them backwards and slightly to the side of your bent knee. Perform for desired repetitions and repeat on the opposite side. REPETITIONS: Perform all prescribed reps on one side, then on the other. This counts as one set."
+                    },
+                    {
+                        "name": "Quadruped Thoracic Rotation/Extension",
+                        "amount": "1 x 8",
+                        "instructions": "SET-UP: Begin on all fours and place one hand on the back of your head. MOVEMENT: Keeping your core braced and with minimal movement in the lower back, rotate your upper back downwards and bring the elbow of your elevated arm down towards the elbow of your bracing arm. Slowly reverse the movement and rotate your upperback and arm upwards so that your elbow now points towards the ceiling (or as far as you can comfortably get without rounding or hyper-extending the lower back). REPETITIONS: Perform all prescribed reps on one side, then on the other. This counts as one set."
+                    },
+                    {
+                        "name": "Bowler Squat",
+                        "amount": "2 x 10",
+                        "instructions": "MOVEMENT: Start standing tall with a shoulder width stance. Begin by lifting one foot off the ground and hinging through your hips. Bend your torso over and bring the arm of the raised leg forward and across your body. Your raised leg will simultaneously move backward to create balance. Lower your torso until it is parallel to the floor, making sure not to round the lower back. Return to the start position maintaining the same form. BENEFITS: The Bowler Squat is an excellent choice for creating mobility in the hips in all three planes of movement."
+                    },
+                    {
+                        "name": "Toy Soldiers",
+                        "amount": "2 x 10",
+                        "instructions": "MOVEMENT: With your arms straight in front of you and your torso upright, walk forward and swing your right leg in front of you while keeping the leg straight. Keep your back neutral and your core tight. Range of motion should come through your hips and not your spine. REPETITIONS: When both legs have completed one full step, this counts as one repetition."
+                    },
+                    {
+                        "name": "Split Stance Pec Mobilization With Staff",
+                        "amount": "1 x 8",
+                        "instructions": "SET-UP: To begin the movement find a broomstick or staff - a foam roller or other light long rod will also suffice. Place the staff against the palm of one hand and grasp the staff's other end with your other hand. MOVEMENT: Stand tall and assume a split-stance, with one leg several feet in front of the other. With your torso upright press your hips forward and extend the arm of the front leg upwards and outwards. Use your other hand to gently press the staff into the palm of your extended hand. Return the arm and staff to the start position and repeat rhythmically, switch sides when you have finished. REPETITIONS: Perform all prescribed reps on one side, then on the other. This counts as one set."
+                    }
+                ],
+                "Flexibility": [
+                    {
+                        "name": "One Arm Doorway Pec Stretch",
+                        "amount": "1 x 55 seconds",
+                        "instructions": "MOVEMENT: Stand next to a doorway or the protruding corner of a wall. Place the upper arm against the side of this door frame or wall, with a 90 degree angle at both your upper arm and forearm. Now slowly lean your body forward, keeping your shoulder stable and being sure not to rotate your shoulder forward. To make the stretch more challenging, simply turn your head in the opposite direction. REPETITIONS: Hold for the full prescribed time on one side, then switch sides and repeat. This counts as one set."
+                    },
+                    {
+                        "name": "Lying Hip External Rotation Stretch",
+                        "amount": "2 x 55 seconds",
+                        "instructions": "MOVEMENT: Lie on your back on a padded mat of floor. Place one leg over the other, right above the knee on the lower thigh. Now, using either a towel, a stretching band or your hands, grasp the bottom leg, and - with your back flat and without hyperextending - slowly pull the knee of this leg closer to your chest. Keep the top leg fixed and you should feel a stretch in the hips. Go as far as your range of motion will comfortably allow. REPETITIONS: Hold for the full prescribed time on one side, then switch sides and repeat. This counts as one set."
+                    },
+                    {
+                        "name": "Lying Overhead Flexion Stretch",
+                        "amount": "1 x 25 seconds",
+                        "instructions": "MOVEMENT: Lie on a mat on your back with your arms straight above your body, forming 90 degree angles to the mat. Keeping your elbows locked, slowly lower your arms to your sides above your head as far as you can without extending your low back. Keep your arms close to your ears."
+                    },
+                    {
+                        "name": "Lunge Stretch",
+                        "amount": "2 x 40 seconds",
+                        "instructions": "MOVEMENT: From a kneeling position on a mat or pad, extend the leg to be stretched behind the body. Use the other leg to step forward creating a resting lunge position. Reach upward with the same arm as the stretched leg and hold for the desired time. To increase the stretch, create a slight rotation in the upper back away from the stretched leg, or add an elevation to the foot of the back leg. REPETITIONS: Hold for the full prescribed time on one side, then switch sides and repeat. This counts as one set."
+                    },
+                    {
+                        "name": "Standing Hamstring Stretch",
+                        "amount": "2 x 55 seconds",
+                        "instructions": "MOVEMENT: From a standing position elevate one foot on a low block or box. Slowly incline forward at the hips, keeping the back neutral and without flexing the lumbar spine. Incline until you feel a good stretch and hold for prescribed time. REPETITIONS: Hold for the full prescribed time on one side, then switch sides and repeat. This counts as one set."
+                    }
+                ],
+                "Cardio": [
+                    {
+                        "name": "Bicycling",
+                        "amount": "15 min light",
+                        "instructions": "SET-UP: Make sure your saddle is at an appropriate height, the brakes work and the bike is otherwise properly maintained. MOVEMENT: While the basic movement of cycling is rather straightforwards, a few tips are useful to keep in mind. 1) Keep your feet flat, neither excessively dorsiflexed or plantarflexed. 2) The strongest portion of the cycling movement is always the push phase, but it is critically important to generate power on the lifting and pull phase as well. 3) Keep your elbows, shoulders, and hands slightly relaxed. 4) Do not allow your head to droop, but also do not hyperextend the neck up and back."
+                    }
+                ]
+            },
+            "Advanced": {
+                "Muscle": [
+                    {
+                        "name": "Front-Lever Row",
+                        "amount": "2 x 8",
+                        "instructions": "SET-UP: Find a pull-up bar, or another immovable graspable object. A barbell locked in place or sturdy desk may also suffice - simply make sure it is immovable and unbreakable, to bear your weight without incident. Face the bar or hold and grasp it with both hands, such that a line forms between the shoulders, the elbows and the apparatus. LIFT: Keeping your back flat, lift your feet off the ground. Raise your body until there is a straight line between your ankles, knees, hips and shoulders, and you are parallel to the floor. Holding this position, use your back and arms to pull yourself up until your chest touches the apparatus. Lower under control and repeat."
+                    },
+                    {
+                        "name": "Bench Press",
+                        "amount": "1 x 12",
+                        "instructions": "SPECIFIC WARM-UP: Use a series of light sets, getting progressively heavier, to build up to your working weight. SET-UP: Find a spotter. Lie down on the bench with your shoulder blades retracted, your stomach and abs tight and your feet flat on the floor. Grip the bar with a shoulder-width, fully closed and tight grip. LIFT: Lower the bar in a straight line to your chest, keeping the elbows close to the body, until it just slightly touches the chest. Reverse the movement quickly while making sure the bar travels in a straight line back up. EMPHASIS: Keep your shoulder blades together at all times and do not allow your shoulders to roll forward during the movement. Press the bar to your chest, NOT your face. Do not bend your wrists, there should be a straightline through your forearm up to your knuckles. Unrack the weight with straight arms."
+                    },
+                    {
+                        "name": "Gliding Leg Curl - Single Leg",
+                        "amount": "2 x 8",
+                        "instructions": "SET-UP: You'll need two supports for this exercise - the first one to hang from with your arms (for instance a bar in a smith machine rack, gymnastic rings, or a sturdy table), and the second to elevate your feet with (a simple bench or sturdy chair should suffice). Start by grasping the first to initiate a hang, then raising your foot onto the second. keep the other leg off the floor and off the bench. LIFT: Keeping your arms straight, press your hips up and curl your body towards your foot as far as you can. Your knee should reach at least 90 degrees of flexion. REPETITIONS: Perform all prescribed reps on one side, then on the other. This counts as one set."
+                    },
+                    {
+                        "name": "Dragon Flag",
+                        "amount": "2 x 8",
+                        "instructions": "SET-UP: Start by lying on a bench grasping the sides or supports with your arms. MOVEMENT: Lift your torso and legs in a straight line from flat on the bench to vertical to the floor, stacked on top of your shoulder blades. Focus on bracing as hard as you can in the core and surrounding musculature - including the glutes and lower back - which you will need to maintain stability while staying straight. OPTIONAL WEIGHTING: If you are extremely strong and can perform the standard dragon flag with perfect form, ankle weights may be added to increase the difficulty. BENEFITS: Without a doubt one of the most challenging ab exercises, the dragon flag is a great way to build core strength and muscle mass. CAUTION: Be sure to keep your weight on your shoulders and shoulder blades and NOT your neck."
+                    },
+                    {
+                        "name": "True One-Leg Squat",
+                        "amount": "1 x 8",
+                        "instructions": "SET-UP: The exercise is simpler to perform with a platform to stand-on, though it can be performed without it. Set up by either standing on a platform, for example a bench or a chair, OR standing on the working leg with the resting leg extended straight out in front of the body. LIFT: Descend as far as possible while maintaining body-control and knee stability. Return to the starting position. EMPHASIS: Try to avoid touching the ground with the non-working leg. REPETITIONS: Perform all prescribed reps on one side, then on the other. This counts as one set. OPTIONAL WEIGHTING: Once you have mastered a strict one-leg squat with proper form, you may also weight the exercise with vests or chains."
+                    }
+                ],
+                "Strength": [
+                    {
+                        "name": "Barbell Row",
+                        "amount": "1 x 5 with 30-50%",
+                        "instructions": "SET-UP: Bend knees slightly, establish an overhand shoulder width or wider grip on the bar and brace through your core. LIFT: Pull the barbell to your torso and return the weight under control until the arms are straight. EMPHASIS: Do not swing or use momentum to lift the weight. Brace through the core and stabilize your torso throughout the movement."
+                    },
+                    {
+                        "name": "Back Squat - Parallel Depth",
+                        "amount": "2 x 5 with 80-90%",
+                        "instructions": "SET-UP: Set up inside of a power-rack and set the safety pins to just above hip-height. Put the bar on pins at a point that is easy to contact, somewhere between your shoulders and the middle of your back. Set your feet slightly wider than shoulder width apart and point your toes out slightly - in-line with your knees. Duck underneath and in front of the bar, raise your chest, brace your stomach and establish a netural spine posture. Grip the bar with your hands at roughly twice shoulder width. Select the grip that gives you the most control and stability. LIFT: From this position lift the bar out of the pins driving through the legs. While maintaining a neutral spine position and tight brace through the core, descend until your upper legs are parallel to the floor. Drive the weight up in a straight-line. EMPHASIS: Brace through your core at all times. Keep a neutral spine throughout the duration of the movement - if a neutral spine cannot be maintained, either reduce the weight or shorten the range of motion. Do not let the knees cave inward on the movement."
+                    },
+                    {
+                        "name": "Overhead Presses - Barbell",
+                        "amount": "2 x 3 with 80-90%",
+                        "instructions": "SET-UP: Set up a barbell on in a power-rack at roughly shoulder height. Face the barbell and set your feet to roughly shoulder width. Alternatively the weight can be picked up from the floor or racks. Brace your core with a neutral spine, and using an overhand, shoulder-width, grasp the weight and rest it gently at your shoulders. LIFT: Bracing through your core, push the weight overhead, just shy of locking your elbows at the top. Return the weight under control. EMPHASIS: Keep your core and back strong while maintaining natural spine position. While your legs, core and back should work to stabilize the movement, do not drive through the legs or use momentum to complete the lift - using a leg-drive will turn the exercise into a push-press, which is an exercise for another day."
+                    }
+                ],
+                "Speed": [
+                    {
+                        "name": "Snatch",
+                        "amount": "1 x 5 with 30-50%",
+                        "instructions": "SET-UP: The snatch is technically a very complex lift - thorough instructions will be coming soon."
+                    },
+                    {
+                        "name": "Back Squat - Parallel Depth",
+                        "amount": "8 x 2 with 30-50%",
+                        "instructions": "SET-UP: Set up inside of a power-rack and set the safety pins to just above hip-height. Put the bar on pins at a point that is easy to contact, somewhere between your shoulders and the middle of your back. Set your feet slightly wider than shoulder width apart and point your toes out slightly - in-line with your knees. Duck underneath and in front of the bar, raise your chest, brace your stomach and establish a netural spine posture. Grip the bar with your hands at roughly twice shoulder width. Select the grip that gives you the most control and stability. LIFT: From this position lift the bar out of the pins driving through the legs. While maintaining a neutral spine position and tight brace through the core, descend until your upper legs are parallel to the floor. Drive the weight up in a straight-line. EMPHASIS: Brace through your core at all times. Keep a neutral spine throughout the duration of the movement - if a neutral spine cannot be maintained, either reduce the weight or shorten the range of motion. Do not let the knees cave inward on the movement."
+                    },
+                    {
+                        "name": "Bench Press",
+                        "amount": "5 x 2 with 30-50%",
+                        "instructions": "SPECIFIC WARM-UP: Use a series of light sets, getting progressively heavier, to build up to your working weight. SET-UP: Find a spotter. Lie down on the bench with your shoulder blades retracted, your stomach and abs tight and your feet flat on the floor. Grip the bar with a shoulder-width, fully closed and tight grip. LIFT: Lower the bar in a straight line to your chest, keeping the elbows close to the body, until it just slightly touches the chest. Reverse the movement quickly while making sure the bar travels in a straight line back up. EMPHASIS: Keep your shoulder blades together at all times and do not allow your shoulders to roll forward during the movement. Press the bar to your chest, NOT your face. Do not bend your wrists, there should be a straightline through your forearm up to your knuckles. Unrack the weight with straight arms."
+                    },
+                    {
+                        "name": "Barbell Row",
+                        "amount": "4 x 2 with 30-50%",
+                        "instructions": "SET-UP: Bend knees slightly, establish an overhand shoulder width or wider grip on the bar and brace through your core. LIFT: Pull the barbell to your torso and return the weight under control until the arms are straight. EMPHASIS: Do not swing or use momentum to lift the weight. Brace through the core and stabilize your torso throughout the movement."
+                    }
+                ],
+                "Mobility": [
+                    {
+                        "name": "Quadruped Thoracic Rotation/Extension",
+                        "amount": "2 x 10",
+                        "instructions": "SET-UP: Begin on all fours and place one hand on the back of your head. MOVEMENT: Keeping your core braced and with minimal movement in the lower back, rotate your upper back downwards and bring the elbow of your elevated arm down towards the elbow of your bracing arm. Slowly reverse the movement and rotate your upperback and arm upwards so that your elbow now points towards the ceiling (or as far as you can comfortably get without rounding or hyper-extending the lower back). REPETITIONS: Perform all prescribed reps on one side, then on the other. This counts as one set."
+                    },
+                    {
+                        "name": "Split-Stance Kneeling Adductor Mobilizations",
+                        "amount": "1 x 8",
+                        "instructions": "SET-UP: Begin on all fours with your knees resting on a pad. Now straighten and extend one leg out to the side with the side of your foot in contact with floor. MOVEMENT: Keeping your back neutral, simply move your hips forward. Now slowly pull them backwards and slightly to the side of your bent knee. Perform for desired repetitions and repeat on the opposite side. REPETITIONS: Perform all prescribed reps on one side, then on the other. This counts as one set."
+                    },
+                    {
+                        "name": "Bowler Squat",
+                        "amount": "2 x 10",
+                        "instructions": "MOVEMENT: Start standing tall with a shoulder width stance. Begin by lifting one foot off the ground and hinging through your hips. Bend your torso over and bring the arm of the raised leg forward and across your body. Your raised leg will simultaneously move backward to create balance. Lower your torso until it is parallel to the floor, making sure not to round the lower back. Return to the start position maintaining the same form. BENEFITS: The Bowler Squat is an excellent choice for creating mobility in the hips in all three planes of movement."
+                    },
+                    {
+                        "name": "Supine Bridge",
+                        "amount": "2 x 10",
+                        "instructions": "MOVEMENT: Lie on your back with knees bent and arms by your sides. Tighten your abs and drive your hips up by contracting your glutes. Extend until there is a straight line between your knees, hips and shoulders."
+                    },
+                    {
+                        "name": "Mountain Climbers",
+                        "amount": "3 x 10",
+                        "instructions": "MOVEMENT: Start on all fours and pike your hips up so that your feet are on the ground, and your arms and legs are straight. Now simply lift one leg up so that your knee is at chest height. Quickly switch legs and repeat in a rhythmic fashion. It is critically important in this exercise to achieve range of motion in the hips and not to excessively flex the lumbar spine. Start with a slow pace and short strides and increase speed and stride length as you progress. REPETITIONS: When both legs have come up to the chest, this counts as one repetition."
+                    },
+                    {
+                        "name": "Split Stance Pec Mobilization With Staff",
+                        "amount": "1 x 8",
+                        "instructions": "SET-UP: To begin the movement find a broomstick or staff - a foam roller or other light long rod will also suffice. Place the staff against the palm of one hand and grasp the staff's other end with your other hand. MOVEMENT: Stand tall and assume a split-stance, with one leg several feet in front of the other. With your torso upright press your hips forward and extend the arm of the front leg upwards and outwards. Use your other hand to gently press the staff into the palm of your extended hand. Return the arm and staff to the start position and repeat rhythmically, switch sides when you have finished. REPETITIONS: Perform all prescribed reps on one side, then on the other. This counts as one set."
+                    },
+                    {
+                        "name": "Lateral Squats",
+                        "amount": "1 x 8",
+                        "instructions": "MOVEMENT: Position your feet a little wider than twice hip width and, keeping your back neutral, bend your knee and shift your hips and weight over this leg. Repeat on the opposite side. REPETITIONS: Perform all prescribed reps on one side, then on the other. This counts as one set."
+                    }
+                ],
+                "Flexibility": [
+                    {
+                        "name": "One Arm Doorway Pec Stretch",
+                        "amount": "1 x 25 seconds",
+                        "instructions": "MOVEMENT: Stand next to a doorway or the protruding corner of a wall. Place the upper arm against the side of this door frame or wall, with a 90 degree angle at both your upper arm and forearm. Now slowly lean your body forward, keeping your shoulder stable and being sure not to rotate your shoulder forward. To make the stretch more challenging, simply turn your head in the opposite direction. REPETITIONS: Hold for the full prescribed time on one side, then switch sides and repeat. This counts as one set."
+                    },
+                    {
+                        "name": "Straddle Stretch",
+                        "amount": "1 x 25 seconds",
+                        "instructions": "MOVEMENT: Sit facing a wall and gently spread your legs apart touching heels against the wall. Spread the legs apart until a comfortable stretch is reached, and hold."
+                    },
+                    {
+                        "name": "Lying Hip External Rotation Stretch",
+                        "amount": "2 x 55 seconds",
+                        "instructions": "MOVEMENT: Lie on your back on a padded mat of floor. Place one leg over the other, right above the knee on the lower thigh. Now, using either a towel, a stretching band or your hands, grasp the bottom leg, and - with your back flat and without hyperextending - slowly pull the knee of this leg closer to your chest. Keep the top leg fixed and you should feel a stretch in the hips. Go as far as your range of motion will comfortably allow. REPETITIONS: Hold for the full prescribed time on one side, then switch sides and repeat. This counts as one set."
+                    },
+                    {
+                        "name": "Across-The-Body Shoulder Stretch",
+                        "amount": "1 x 55 seconds",
+                        "instructions": "MOVEMENT: Stand tall with shoulder blades together. Gently move the working arm in front of the body, supported by the opposite arm in front. REPETITIONS: Hold for the full prescribed time on one side, then switch sides and repeat. This counts as one set."
+                    },
+                    {
+                        "name": "Lying Hamstring Stretch",
+                        "amount": "1 x 25 seconds",
+                        "instructions": "MOVEMENT: Lie on your back near a doorframe. With legs flat, raise your near-leg and place your heel against the wall. Without hyperextending your lower back, and keeping your leg straight, slowly move closer to the wall, placing progressively more stretch on the hamstrings. REPETITIONS: Hold for the full prescribed time on one side, then switch sides and repeat. This counts as one set."
+                    },
+                    {
+                        "name": "Shoulder Stretch With Towel",
+                        "amount": "1 x 55 seconds",
+                        "instructions": "MOVEMENT: Stand tall with shoulder blades together, grasping a towel at one end in your off hand. Gently move the working arm behind the body, and grasp the opposite end of the towel. Gently pull upwards until you feel a stretch in the rear of the shoulder. Hold and repeat on the opposite side. REPETITIONS: Hold for the full prescribed time on one side, then switch sides and repeat. This counts as one set."
+                    },
+                    {
+                        "name": "Lying Overhead Flexion Stretch",
+                        "amount": "1 x 55 seconds",
+                        "instructions": "MOVEMENT: Lie on a mat on your back with your arms straight above your body, forming 90 degree angles to the mat. Keeping your elbows locked, slowly lower your arms to your sides above your head as far as you can without extending your low back. Keep your arms close to your ears."
+                    },
+                    {
+                        "name": "Overhead Reach",
+                        "amount": "1 x 55 seconds",
+                        "instructions": "MOVEMENT: Standing straight, gently lift and extend arms straight over head, as comfort and range of motion will allow. Hold for the desired time."
+                    }
+                ],
+                "Cardio": [
+                    {
+                        "name": "Rowing",
+                        "amount": "2 x (80, 40) sec",
+                        "instructions": "MOVEMENT: Catch, drive, finish, recovery. Initiate the rowing stroke with the legs, followed by the torso, finishing with the arms. Bring the handle to the bottom of the chest on each stroke. On the recovery of the stroke the arms should come forward first, followed by the torso followed by the legs. Start the knee bend and leg recovery only after the handle has past the knees. Be sure to generate as much range of motion in the legs as you can, while avoiding excessive flexion in the trunk. CAUTION: If you have a history of flexion-intolerance in your back (and you are not a professional rower), the row is a poor choice and you should swap this exercise for an extension-based conditioning exercise like swimming."
+                    },
+                    {
+                        "name": "Running",
+                        "amount": "15 min light",
+                        "instructions": "MOVEMENT: One of the most fundamental human movements, running is nevertheless subject to a large number of pathologies. Any existing inflexibilities or postural problems can cause problems in the running stride and increase the risk of repetitive strain injuries. Basic running form should include the following - hips that point forwards and not excessively downwards; arms at your sides bent to 90 degrees at the elbows; arm swing primarily forward and back with some - but not excessive - rotation across the body. Do not clench your fists or incline your torso too far forward. Be sure to land each stride with bent knees. The heel should rise above the knee on the recoil of each stride, while the knees should move predominantly forward on each stride. Whether to land on your heel or forefoot is beyond the scope of this explanation - but if you do experience pains or discomforts while running, you should examine which form of striding may be more appropriate for you. CAUTION: Common problems with running include running completely upright, overstriding - that is, landing with your foot in front of your hip rather than underneath, and cycling your arms only forwards and backwards with no rotation (and alternatively, at the other end, moving the arms too far across the body)."
+                    }
+                ]
+            }
+        },
+        "30": {
+            "Beginner": {
+                "Muscle": [
+                    {
+                        "name": "Overhead Presses - Dumbbells, Alternating Arms",
+                        "amount": "5 x 3 with 80-90%",
+                        "instructions": "SET-UP: With two dumbbells set your feet to roughly shoulder width. Brace your core with a neutral spine, and grasp the dumbbells using an overhand, shoulder-width grip. LIFT: Bracing through your core, push the weight in your left hand overhead, just shy of locking your elbow at the top. Return the weight under control, and lift the other side. EMPHASIS: Keep your core and back strong while maintaining natural spine position. While your legs, core and back should work to stabilize the movement, do not drive through the legs or use momentum to complete the lift. REPETITIONS: When both arms have been raised, this counts as one repetition."
+                    },
+                    {
+                        "name": "Cable Push Down - Wide-Overhand-Grip",
+                        "amount": "2 x 5 with 80-90%",
+                        "instructions": "SET-UP: Set up next to a cable tower with a wide bar attached. Bend your knees slightly, establish a neutral spine, brace through your core and look straight ahead. Grasp the handle with a wide overhand grip. LIFT: Press the weight down keeping your elbows in and close to the body. At the bottom return the weight back to the start position under control. EMPHASIS: Do not swing forward or use your bodyweight to complete the exercise - your back should remain stable and braced throughout the exercise."
+                    },
+                    {
+                        "name": "Lunge - Barbell",
+                        "amount": "1 x 8",
+                        "instructions": "MOVEMENT: Step forward onto your heel, keeping your knees in line with your toes and your hips level. Brace through your stomach and do not allow your lower back to round. Descend until just before your knee touches the floor, then - pressing your your heel and not the toes - step back to the start position. Perform the desired number of repetitions and repeat with your opposite leg. REPETITIONS: Perform all prescribed reps on one side, then on the other. This counts as one set."
+                    },
+                    {
+                        "name": "Bodyweight Squat - Partial",
+                        "amount": "1 x 12",
+                        "instructions": "SET-UP: Set your feet slightly wider than shoulder width, brace your stomach and establish a neutral spine posture. Raise your chest up and look forwards and slightly upwards. LIFT: Start the movement as if you were about to sit down, pushing your hips down and back. Descend as far as you can without excessive rounding of the back and without the knees caving inwards. Make sure your knees track in line with your toes and do not let your knees push forward in front of your toes. Attempt to spread the floor with your feet as you rise back up to the start position. EMPHASIS: Brace through your core and try to keep your spine neutral throughout the duration of the movement. Do not let the knees cave inward on the movement."
+                    },
+                    {
+                        "name": "Eqi Push-Up Hold",
+                        "amount": "1 x 30 seconds",
+                        "instructions": "SET-UP: Set up with your hands slightly wider than shoulder width - so that the upper arms are tucked at 45-degree angle to the torso - and fingers pointing forward. With the toes together and hips up, establish proper upper body posture with a neutral back. LIFT: Lower your chest until it is just several inches off the floor and hold this position stable for the prescribed time. If form cannot be maintained, break and resume the prescribed time after a short rest. EMPHASIS: Don't allow the hips or the lower back to sag. Keep the elbows close to the body - don't let them flare out to the sides. Don't push the head forward to the floor."
+                    },
+                    {
+                        "name": "Side Lunge",
+                        "amount": "1 x 8",
+                        "instructions": "SET-UP: Stand tall, brace through the core, pull your shoulder blades back and establish a neutral spine position. Place your weight onto your heels. MOVEMENT: Step out to the side with your knee in line with toes. Do not allow your knee to pass forward over your toes. Land on your heels and not your toes. The trunk should remain stable and movement in the upper body should come from the hips. Think about hinging through your hips to lower your upper body, rather than flexing your spine. REPETITIONS: Perform all prescribed reps on one side, then on the other. This counts as one set."
+                    },
+                    {
+                        "name": "Hamstring Curls",
+                        "amount": "1 x 8",
+                        "instructions": "SET-UP: Set the hamstring curl machine so that your ankles rest on the ankle pad and not your lower calf. MOVEMENT: Curl the ankle pad to your butt and return to the start position. Do not hyperextend your lumbar spine or use momentum to complete the repetition."
+                    }
+                ],
+                "Strength": [
+                    {
+                        "name": "Squat - Deep, Bodyweight",
+                        "amount": "12 x 2 with 30-50%",
+                        "instructions": "SET-UP: Set your feet slightly wider than shoulder width, brace your stomach and establish a neutral spine posture. Raise your chest up and look forwards and slightly upwards. LIFT: Start the movement as if you were about to sit down, pushing your hips down and back. Descend as far as you can without excessive rounding of the back and without the knees caving inwards. Your hips should end up well below the height of your knees. Attempt to spread the floor with your feet as you rise back up to the start position. EMPHASIS: Brace through your core at all times and try to keep your spine neutral throughout the duration of the movement. Do not let your knees push forward in front of your toes or cave inward on the movement. ASSISTS: Holding onto a railing or sturdy door can make the exercise easier and assist in reaching deeper ranges of motion with proper form."
+                    },
+                    {
+                        "name": "Pushup - Kneeling And Inclined",
+                        "amount": "1 x 2 with 30-50%",
+                        "instructions": "SET-UP: Find a mat for your knees and a surface to elevate your hands on. With the knees together on the floor and hips up, establish proper upper body posture with a neutral back. Place your hands on the elevated surface at slightly wider than shoulder width - so that the upper arms are tucked at 45-degree angle to the torso - and fingers pointing forward. LIFT: Press the chest off the elevated surface until the arms are straight, then return to the starting position. Cue the descent by attempting to 'pull' yourself down to the floor with your shoulder blades. EMPHASIS: Don't allow the hips or the lower back to sag. Keep the elbows inside - don't let them flare out to the sides. Use a complete range of motion, bringing the chest to the floor. Don't push the head forward to the floor."
+                    },
+                    {
+                        "name": "Leg Press",
+                        "amount": "10 x 3 with 80-90%",
+                        "instructions": "SET-UP: Find a leg press machine. Adjust the pads so your hip are placed 6-12 inches closer to the foot pad than the knees. Place the feet about hip-width apart with your knees in-line with your toes. LIFT: Push the plate outward until the knees are just shy of lockout, and return. EMPHASIS: Keep the knees in line with the toes for the duration of the exercise - do not let them cave inward or flare outward."
+                    }
+                ],
+                "Speed": [
+                    {
+                        "name": "Vertical Shuffle Splits",
+                        "amount": "1 x 20",
+                        "instructions": "MOVEMENT: Jump cycling your feet so that one foot moves in front of you while the other moves behind. Land on both feet simultaneously and shoot for quick rhythmic bounces. Switch legs with each jump."
+                    },
+                    {
+                        "name": "Rim Or High Object Jumps",
+                        "amount": "3 x 15",
+                        "instructions": "MOVEMENT: Focusing on a basketball rim or another high object, simply jump as high as you can to touch it. Land and quickly reverse the movement, jumping and reaching as high as you can on each repetition."
+                    },
+                    {
+                        "name": "Cable Row - Seated, Underhand-Grip",
+                        "amount": "12 x 2 with 30-50%",
+                        "instructions": "SET-UP: Sit down at a cable tower with a row attachment. With your knees slightly bent, spine neutral and shoulder blades together, bend at the hips to grasp the handle. Grip the handle underhand at shoulder width. Brace through the core before beginning the movement. LIFT: Pull the handle to your chest, keeping your back upright and tight throughout the movement. Focus on bringing the shoulder blades together at the end of the range of movement. Return to the start position under control, maintaining the same braced position in your torso. EMPHASIS: Do not flex or bend the spine at any point. Keep the hips and lumbar spine locked in place - all of the movement should come from the shoulder blades and in the arms. Also do not push the head forward at the end of the movement - focus on completing the range of motion in the shoulder blades. BENEFITS: The cable row is a great movement for shoulder girdle health and for creating balance in horizontal pulling and pushing (especially for the frequent bench-presser). It is also a bit easier to maintain proper form than in dumbbell, bent-over or chest-supported rows where the tendency and ease of 'cheating' the movement is a bit higher."
+                    },
+                    {
+                        "name": "Bodyweight Squat - Partial",
+                        "amount": "4 x 2 with 30-50%",
+                        "instructions": "SET-UP: Set your feet slightly wider than shoulder width, brace your stomach and establish a neutral spine posture. Raise your chest up and look forwards and slightly upwards. LIFT: Start the movement as if you were about to sit down, pushing your hips down and back. Descend as far as you can without excessive rounding of the back and without the knees caving inwards. Make sure your knees track in line with your toes and do not let your knees push forward in front of your toes. Attempt to spread the floor with your feet as you rise back up to the start position. EMPHASIS: Brace through your core and try to keep your spine neutral throughout the duration of the movement. Do not let the knees cave inward on the movement."
+                    },
+                    {
+                        "name": "Pushup - Kneeling",
+                        "amount": "5 x 2 with 30-50%",
+                        "instructions": "SET-UP: Set up with your hands slightly wider than shoulder width - so that the upper arms are tucked at 45-degree angle to the torso - and fingers pointing forward. With the knees together and hips up, establish proper upper body posture with a neutral back. LIFT: Press the chest off the floor until the arms are straight, then return to the starting position. Cue the descent by attempting to 'pull' yourself down to the floor with your shoulder blades. EMPHASIS: Don't allow the hips or the lower back to sag. Keep the elbows inside - don't let them flare out to the sides. Use a complete range of motion, bringing the chest to the floor. Don't push the head forward to the floor."
+                    }
+                ],
+                "Mobility": [
+                    {
+                        "name": "Cat-Camel",
+                        "amount": "1 x 8",
+                        "instructions": "SET-UP: Start on all fours with your arms and thighs vertical. MOVEMENT: Start the movement by bringing your head and pelvis towards each other - effectively rounding your back (the 'camel' position). Then raise your head and push your hips backwards, creating an arch in your back (the 'cat' position). With each position, extend as far as is comfortable and natural, the goal is not to force extreme range of motion, but rather to prepare the spine and back for more work. BENEFITS: The cat camel can help increase thoracic spine (middle/upper back) mobility and is useful for warming up and protecting the spine. It accomplishes 'spinal flossing' - essentially lubricating it and preparing it for more strenuous activities."
+                    },
+                    {
+                        "name": "Reach, Roll And Lift",
+                        "amount": "1 x 8",
+                        "instructions": "MOVEMENT: Sit back on your heels and place your forearms and hands flat on the ground. Take one hand and reach out to full extension. At full extension, turn the palm over to face upwards. Lift the arm a few inches off the ground and hold for several seconds. Return to the start and switch arms. REPETITIONS: Once both arms have been raised, this counts as one repetition."
+                    },
+                    {
+                        "name": "Bowler Squat",
+                        "amount": "3 x 10",
+                        "instructions": "MOVEMENT: Start standing tall with a shoulder width stance. Begin by lifting one foot off the ground and hinging through your hips. Bend your torso over and bring the arm of the raised leg forward and across your body. Your raised leg will simultaneously move backward to create balance. Lower your torso until it is parallel to the floor, making sure not to round the lower back. Return to the start position maintaining the same form. BENEFITS: The Bowler Squat is an excellent choice for creating mobility in the hips in all three planes of movement."
+                    },
+                    {
+                        "name": "Supine Bridge",
+                        "amount": "2 x 10",
+                        "instructions": "MOVEMENT: Lie on your back with knees bent and arms by your sides. Tighten your abs and drive your hips up by contracting your glutes. Extend until there is a straight line between your knees, hips and shoulders."
+                    },
+                    {
+                        "name": "Split-Stance Kneeling Adductor Mobilizations",
+                        "amount": "2 x 10",
+                        "instructions": "SET-UP: Begin on all fours with your knees resting on a pad. Now straighten and extend one leg out to the side with the side of your foot in contact with floor. MOVEMENT: Keeping your back neutral, simply move your hips forward. Now slowly pull them backwards and slightly to the side of your bent knee. Perform for desired repetitions and repeat on the opposite side. REPETITIONS: Perform all prescribed reps on one side, then on the other. This counts as one set."
+                    },
+                    {
+                        "name": "Quadruped Thoracic Rotation/Extension",
+                        "amount": "3 x 10",
+                        "instructions": "SET-UP: Begin on all fours and place one hand on the back of your head. MOVEMENT: Keeping your core braced and with minimal movement in the lower back, rotate your upper back downwards and bring the elbow of your elevated arm down towards the elbow of your bracing arm. Slowly reverse the movement and rotate your upperback and arm upwards so that your elbow now points towards the ceiling (or as far as you can comfortably get without rounding or hyper-extending the lower back). REPETITIONS: Perform all prescribed reps on one side, then on the other. This counts as one set."
+                    },
+                    {
+                        "name": "Wall-Ankle Mobilizations",
+                        "amount": "3 x 10",
+                        "instructions": "SET-UP: Begin by facing a wall with one foot in front, with the toes touching the wall. MOVEMENT: Keeping the heel on the floor, gently rock forward to touch your knee to the wall. Make sure the knee tracks over the middle toes and not laterally to either side. If this is easy, slowly move back the lead foot until you feel a good stretch, again making sure to keep the heels on the floor while still bringing the knee to the wall. REPETITIONS: Perform all prescribed reps on one side, then on the other. This counts as one set."
+                    },
+                    {
+                        "name": "Split Stance Pec Mobilization With Staff",
+                        "amount": "1 x 8",
+                        "instructions": "SET-UP: To begin the movement find a broomstick or staff - a foam roller or other light long rod will also suffice. Place the staff against the palm of one hand and grasp the staff's other end with your other hand. MOVEMENT: Stand tall and assume a split-stance, with one leg several feet in front of the other. With your torso upright press your hips forward and extend the arm of the front leg upwards and outwards. Use your other hand to gently press the staff into the palm of your extended hand. Return the arm and staff to the start position and repeat rhythmically, switch sides when you have finished. REPETITIONS: Perform all prescribed reps on one side, then on the other. This counts as one set."
+                    }
+                ],
+                "Flexibility": [
+                    {
+                        "name": "One-Arm Lat Stretch",
+                        "amount": "2 x 55 seconds",
+                        "instructions": "MOVEMENT: Grasp an immovable object such as a doorframe or a Smith Machine. Sit back from the hips with arm extended. Gently rotate away from the object to increase the stretch. REPETITIONS: Hold for the full prescribed time on one side, then switch sides and repeat. This counts as one set."
+                    },
+                    {
+                        "name": "Calf Wall Stretch",
+                        "amount": "2 x 40 seconds",
+                        "instructions": "MOVEMENT: Stand facing a wall or other sturdy support and place your arms against it for stabilization. Bring the off leg forward in line with your chest, and gently step the leg to be stretched backward keeping the heel flat to the ground. Lean into the wall or move your back foot farther back to increase the stretch. REPETITIONS: Hold for the full prescribed time on one side, then switch sides and repeat. This counts as one set."
+                    },
+                    {
+                        "name": "Overhead Tricep Stretch",
+                        "amount": "1 x 25 seconds",
+                        "instructions": "MOVEMENT: Standing straight, gently lift and extend one arm straight over head. Slowly bend the elbow until your hand is behind its shoulder. Keeping your shoulder blades pulled together, bring your other arm around and slowly and gently pull the elbow of the arm being stretched down and back. Hold for the desired time. REPETITIONS: Hold for the full prescribed time on one side, then switch sides and repeat. This counts as one set."
+                    },
+                    {
+                        "name": "Standing Hamstring Stretch",
+                        "amount": "2 x 40 seconds",
+                        "instructions": "MOVEMENT: From a standing position elevate one foot on a low block or box. Slowly incline forward at the hips, keeping the back neutral and without flexing the lumbar spine. Incline until you feel a good stretch and hold for prescribed time. REPETITIONS: Hold for the full prescribed time on one side, then switch sides and repeat. This counts as one set."
+                    },
+                    {
+                        "name": "Lunge Stretch",
+                        "amount": "1 x 25 seconds",
+                        "instructions": "MOVEMENT: From a kneeling position on a mat or pad, extend the leg to be stretched behind the body. Use the other leg to step forward creating a resting lunge position. Reach upward with the same arm as the stretched leg and hold for the desired time. To increase the stretch, create a slight rotation in the upper back away from the stretched leg, or add an elevation to the foot of the back leg. REPETITIONS: Hold for the full prescribed time on one side, then switch sides and repeat. This counts as one set."
+                    },
+                    {
+                        "name": "Lying Overhead Flexion Stretch",
+                        "amount": "1 x 55 seconds",
+                        "instructions": "MOVEMENT: Lie on a mat on your back with your arms straight above your body, forming 90 degree angles to the mat. Keeping your elbows locked, slowly lower your arms to your sides above your head as far as you can without extending your low back. Keep your arms close to your ears."
+                    },
+                    {
+                        "name": "Lying Hip External Rotation Stretch",
+                        "amount": "2 x 40 seconds",
+                        "instructions": "MOVEMENT: Lie on your back on a padded mat of floor. Place one leg over the other, right above the knee on the lower thigh. Now, using either a towel, a stretching band or your hands, grasp the bottom leg, and - with your back flat and without hyperextending - slowly pull the knee of this leg closer to your chest. Keep the top leg fixed and you should feel a stretch in the hips. Go as far as your range of motion will comfortably allow. REPETITIONS: Hold for the full prescribed time on one side, then switch sides and repeat. This counts as one set."
+                    },
+                    {
+                        "name": "Across-The-Body Shoulder Stretch",
+                        "amount": "1 x 25 seconds",
+                        "instructions": "MOVEMENT: Stand tall with shoulder blades together. Gently move the working arm in front of the body, supported by the opposite arm in front. REPETITIONS: Hold for the full prescribed time on one side, then switch sides and repeat. This counts as one set."
+                    }
+                ],
+                "Cardio": [
+                    {
+                        "name": "Rowing",
+                        "amount": "15 min moderate",
+                        "instructions": "MOVEMENT: Catch, drive, finish, recovery. Initiate the rowing stroke with the legs, followed by the torso, finishing with the arms. Bring the handle to the bottom of the chest on each stroke. On the recovery of the stroke the arms should come forward first, followed by the torso followed by the legs. Start the knee bend and leg recovery only after the handle has past the knees. Be sure to generate as much range of motion in the legs as you can, while avoiding excessive flexion in the trunk. CAUTION: If you have a history of flexion-intolerance in your back (and you are not a professional rower), the row is a poor choice and you should swap this exercise for an extension-based conditioning exercise like swimming."
+                    }
+                ]
+            },
+            "Intermediate": {
+                "Muscle": [
+                    {
+                        "name": "Workout 1",
+                        "amount": "3 sets of 10 reps",
+                        "instructions": "This workout focuses on building muscle mass in the upper body."
+                    },
+                    {
+                        "name": "Workout 2",
+                        "amount": "4 sets of 12 reps",
+                        "instructions": "This workout targets the chest and triceps."
+                    }
+                ],
+                "Strength": [
+                    {
+                        "name": "Workout 3",
+                        "amount": "5 sets of 5 reps",
+                        "instructions": "This workout is designed to increase overall strength and power."
+                    },
+                    {
+                        "name": "Workout 4",
+                        "amount": "3 sets of 8 reps",
+                        "instructions": "This workout focuses on compound movements like squats and deadlifts."
+                    }
+                ],
+                "Speed": [
+                    {
+                        "name": "Workout 5",
+                        "amount": "6 sets of 20-second sprints",
+                        "instructions": "This workout improves speed and agility."
+                    },
+                    {
+                        "name": "Workout 6",
+                        "amount": "Interval training: 1 minute sprint, 1 minute jog, repeat 10 times.",
+                        "instructions": "This workout boosts cardiovascular endurance."
+                    }
+                ],
+                "Mobility": [
+                    {
+                        "name": "Workout 7",
+                        "amount": "10 minutes of dynamic stretching",
+                        "instructions": "This workout improves flexibility and mobility."
+                    },
+                    {
+                        "name": "Workout 8",
+                        "amount": "Yoga flow: Sun Salutations, Warrior poses, and Seated Forward Bend.",
+                        "instructions": "This workout enhances overall mobility and reduces stiffness."
+                    }
+                ],
+                "Flexibility": [
+                    {
+                        "name": "Workout 9",
+                        "amount": "30 minutes of static stretching",
+                        "instructions": "This workout increases flexibility and reduces the risk of injury."
+                    },
+                    {
+                        "name": "Workout 10",
+                        "amount": "Pilates: focus on spine flexibility and core strength.",
+                        "instructions": "This workout improves flexibility and posture."
+                    }
+                ],
+                "Cardio": [
+                    {
+                        "name": "Workout 11",
+                        "amount": "30-minute brisk walk",
+                        "instructions": "This workout improves cardiovascular health."
+                    },
+                    {
+                        "name": "Workout 12",
+                        "amount": "Cycling: 45 minutes at moderate intensity",
+                        "instructions": "This workout boosts endurance and burns calories."
+                    }
+                ]
+            },
+            "Advanced": {
+                "Muscle": [
+                    {
+                        "name": "Workout 1",
+                        "amount": "3 sets of 10 reps",
+                        "instructions": "This workout focuses on building muscle mass in the upper body."
+                    },
+                    {
+                        "name": "Workout 2",
+                        "amount": "4 sets of 12 reps",
+                        "instructions": "This workout targets the chest and triceps."
+                    }
+                ],
+                "Strength": [
+                    {
+                        "name": "Workout 3",
+                        "amount": "5 sets of 5 reps",
+                        "instructions": "This workout is designed to increase overall strength and power."
+                    },
+                    {
+                        "name": "Workout 4",
+                        "amount": "3 sets of 8 reps",
+                        "instructions": "This workout focuses on compound movements like squats and deadlifts."
+                    }
+                ],
+                "Speed": [
+                    {
+                        "name": "Workout 5",
+                        "amount": "6 sets of 20-second sprints",
+                        "instructions": "This workout improves speed and agility."
+                    },
+                    {
+                        "name": "Workout 6",
+                        "amount": "Interval training: 1 minute sprint, 1 minute jog, repeat 10 times.",
+                        "instructions": "This workout boosts cardiovascular endurance."
+                    }
+                ],
+                "Mobility": [
+                    {
+                        "name": "Workout 7",
+                        "amount": "10 minutes of dynamic stretching",
+                        "instructions": "This workout improves flexibility and mobility."
+                    },
+                    {
+                        "name": "Workout 8",
+                        "amount": "Yoga flow: Sun Salutations, Warrior poses, and Seated Forward Bend.",
+                        "instructions": "This workout enhances overall mobility and reduces stiffness."
+                    }
+                ],
+                "Flexibility": [
+                    {
+                        "name": "Workout 9",
+                        "amount": "30 minutes of static stretching",
+                        "instructions": "This workout increases flexibility and reduces the risk of injury."
+                    },
+                    {
+                        "name": "Workout 10",
+                        "amount": "Pilates: focus on spine flexibility and core strength.",
+                        "instructions": "This workout improves flexibility and posture."
+                    }
+                ],
+                "Cardio": [
+                    {
+                        "name": "Workout 11",
+                        "amount": "30-minute brisk walk",
+                        "instructions": "This workout improves cardiovascular health."
+                    },
+                    {
+                        "name": "Workout 12",
+                        "amount": "Cycling: 45 minutes at moderate intensity",
+                        "instructions": "This workout boosts endurance and burns calories."
+                    }
+                ]
+            }
+        },
+        "45": {
+            "Beginner": {
+                "Muscle": [
+                    {
+                        "name": "Workout 1",
+                        "amount": "3 sets of 10 reps",
+                        "instructions": "This workout focuses on building muscle mass in the upper body."
+                    },
+                    {
+                        "name": "Workout 2",
+                        "amount": "4 sets of 12 reps",
+                        "instructions": "This workout targets the chest and triceps."
+                    }
+                ],
+                "Strength": [
+                    {
+                        "name": "Workout 3",
+                        "amount": "5 sets of 5 reps",
+                        "instructions": "This workout is designed to increase overall strength and power."
+                    },
+                    {
+                        "name": "Workout 4",
+                        "amount": "3 sets of 8 reps",
+                        "instructions": "This workout focuses on compound movements like squats and deadlifts."
+                    }
+                ],
+                "Speed": [
+                    {
+                        "name": "Workout 5",
+                        "amount": "6 sets of 20-second sprints",
+                        "instructions": "This workout improves speed and agility."
+                    },
+                    {
+                        "name": "Workout 6",
+                        "amount": "Interval training: 1 minute sprint, 1 minute jog, repeat 10 times.",
+                        "instructions": "This workout boosts cardiovascular endurance."
+                    }
+                ],
+                "Mobility": [
+                    {
+                        "name": "Workout 7",
+                        "amount": "10 minutes of dynamic stretching",
+                        "instructions": "This workout improves flexibility and mobility."
+                    },
+                    {
+                        "name": "Workout 8",
+                        "amount": "Yoga flow: Sun Salutations, Warrior poses, and Seated Forward Bend.",
+                        "instructions": "This workout enhances overall mobility and reduces stiffness."
+                    }
+                ],
+                "Flexibility": [
+                    {
+                        "name": "Workout 9",
+                        "amount": "30 minutes of static stretching",
+                        "instructions": "This workout increases flexibility and reduces the risk of injury."
+                    },
+                    {
+                        "name": "Workout 10",
+                        "amount": "Pilates: focus on spine flexibility and core strength.",
+                        "instructions": "This workout improves flexibility and posture."
+                    }
+                ],
+                "Cardio": [
+                    {
+                        "name": "Workout 11",
+                        "amount": "30-minute brisk walk",
+                        "instructions": "This workout improves cardiovascular health."
+                    },
+                    {
+                        "name": "Workout 12",
+                        "amount": "Cycling: 45 minutes at moderate intensity",
+                        "instructions": "This workout boosts endurance and burns calories."
+                    }
+                ]
+            },
+            "Intermediate": {
+                "Muscle": [
+                    {
+                        "name": "Workout 1",
+                        "amount": "3 sets of 10 reps",
+                        "instructions": "This workout focuses on building muscle mass in the upper body."
+                    },
+                    {
+                        "name": "Workout 2",
+                        "amount": "4 sets of 12 reps",
+                        "instructions": "This workout targets the chest and triceps."
+                    }
+                ],
+                "Strength": [
+                    {
+                        "name": "Workout 3",
+                        "amount": "5 sets of 5 reps",
+                        "instructions": "This workout is designed to increase overall strength and power."
+                    },
+                    {
+                        "name": "Workout 4",
+                        "amount": "3 sets of 8 reps",
+                        "instructions": "This workout focuses on compound movements like squats and deadlifts."
+                    }
+                ],
+                "Speed": [
+                    {
+                        "name": "Workout 5",
+                        "amount": "6 sets of 20-second sprints",
+                        "instructions": "This workout improves speed and agility."
+                    },
+                    {
+                        "name": "Workout 6",
+                        "amount": "Interval training: 1 minute sprint, 1 minute jog, repeat 10 times.",
+                        "instructions": "This workout boosts cardiovascular endurance."
+                    }
+                ],
+                "Mobility": [
+                    {
+                        "name": "Workout 7",
+                        "amount": "10 minutes of dynamic stretching",
+                        "instructions": "This workout improves flexibility and mobility."
+                    },
+                    {
+                        "name": "Workout 8",
+                        "amount": "Yoga flow: Sun Salutations, Warrior poses, and Seated Forward Bend.",
+                        "instructions": "This workout enhances overall mobility and reduces stiffness."
+                    }
+                ],
+                "Flexibility": [
+                    {
+                        "name": "Workout 9",
+                        "amount": "30 minutes of static stretching",
+                        "instructions": "This workout increases flexibility and reduces the risk of injury."
+                    },
+                    {
+                        "name": "Workout 10",
+                        "amount": "Pilates: focus on spine flexibility and core strength.",
+                        "instructions": "This workout improves flexibility and posture."
+                    }
+                ],
+                "Cardio": [
+                    {
+                        "name": "Workout 11",
+                        "amount": "30-minute brisk walk",
+                        "instructions": "This workout improves cardiovascular health."
+                    },
+                    {
+                        "name": "Workout 12",
+                        "amount": "Cycling: 45 minutes at moderate intensity",
+                        "instructions": "This workout boosts endurance and burns calories."
+                    }
+                ]
+            },
+            "Advanced": {
+                "Muscle": [
+                    {
+                        "name": "Workout 1",
+                        "amount": "3 sets of 10 reps",
+                        "instructions": "This workout focuses on building muscle mass in the upper body."
+                    },
+                    {
+                        "name": "Workout 2",
+                        "amount": "4 sets of 12 reps",
+                        "instructions": "This workout targets the chest and triceps."
+                    }
+                ],
+                "Strength": [
+                    {
+                        "name": "Workout 3",
+                        "amount": "5 sets of 5 reps",
+                        "instructions": "This workout is designed to increase overall strength and power."
+                    },
+                    {
+                        "name": "Workout 4",
+                        "amount": "3 sets of 8 reps",
+                        "instructions": "This workout focuses on compound movements like squats and deadlifts."
+                    }
+                ],
+                "Speed": [
+                    {
+                        "name": "Workout 5",
+                        "amount": "6 sets of 20-second sprints",
+                        "instructions": "This workout improves speed and agility."
+                    },
+                    {
+                        "name": "Workout 6",
+                        "amount": "Interval training: 1 minute sprint, 1 minute jog, repeat 10 times.",
+                        "instructions": "This workout boosts cardiovascular endurance."
+                    }
+                ],
+                "Mobility": [
+                    {
+                        "name": "Workout 7",
+                        "amount": "10 minutes of dynamic stretching",
+                        "instructions": "This workout improves flexibility and mobility."
+                    },
+                    {
+                        "name": "Workout 8",
+                        "amount": "Yoga flow: Sun Salutations, Warrior poses, and Seated Forward Bend.",
+                        "instructions": "This workout enhances overall mobility and reduces stiffness."
+                    }
+                ],
+                "Flexibility": [
+                    {
+                        "name": "Workout 9",
+                        "amount": "30 minutes of static stretching",
+                        "instructions": "This workout increases flexibility and reduces the risk of injury."
+                    },
+                    {
+                        "name": "Workout 10",
+                        "amount": "Pilates: focus on spine flexibility and core strength.",
+                        "instructions": "This workout improves flexibility and posture."
+                    }
+                ],
+                "Cardio": [
+                    {
+                        "name": "Workout 11",
+                        "amount": "30-minute brisk walk",
+                        "instructions": "This workout improves cardiovascular health."
+                    },
+                    {
+                        "name": "Workout 12",
+                        "amount": "Cycling: 45 minutes at moderate intensity",
+                        "instructions": "This workout boosts endurance and burns calories."
+                    }
+                ]
+            }
+        },
+        "60": {
+            "Beginner": {
+                "Muscle": [
+                    {
+                        "name": "Workout 1",
+                        "amount": "3 sets of 10 reps",
+                        "instructions": "This workout focuses on building muscle mass in the upper body."
+                    },
+                    {
+                        "name": "Workout 2",
+                        "amount": "4 sets of 12 reps",
+                        "instructions": "This workout targets the chest and triceps."
+                    }
+                ],
+                "Strength": [
+                    {
+                        "name": "Workout 3",
+                        "amount": "5 sets of 5 reps",
+                        "instructions": "This workout is designed to increase overall strength and power."
+                    },
+                    {
+                        "name": "Workout 4",
+                        "amount": "3 sets of 8 reps",
+                        "instructions": "This workout focuses on compound movements like squats and deadlifts."
+                    }
+                ],
+                "Speed": [
+                    {
+                        "name": "Workout 5",
+                        "amount": "6 sets of 20-second sprints",
+                        "instructions": "This workout improves speed and agility."
+                    },
+                    {
+                        "name": "Workout 6",
+                        "amount": "Interval training: 1 minute sprint, 1 minute jog, repeat 10 times.",
+                        "instructions": "This workout boosts cardiovascular endurance."
+                    }
+                ],
+                "Mobility": [
+                    {
+                        "name": "Workout 7",
+                        "amount": "10 minutes of dynamic stretching",
+                        "instructions": "This workout improves flexibility and mobility."
+                    },
+                    {
+                        "name": "Workout 8",
+                        "amount": "Yoga flow: Sun Salutations, Warrior poses, and Seated Forward Bend.",
+                        "instructions": "This workout enhances overall mobility and reduces stiffness."
+                    }
+                ],
+                "Flexibility": [
+                    {
+                        "name": "Workout 9",
+                        "amount": "30 minutes of static stretching",
+                        "instructions": "This workout increases flexibility and reduces the risk of injury."
+                    },
+                    {
+                        "name": "Workout 10",
+                        "amount": "Pilates: focus on spine flexibility and core strength.",
+                        "instructions": "This workout improves flexibility and posture."
+                    }
+                ],
+                "Cardio": [
+                    {
+                        "name": "Workout 11",
+                        "amount": "30-minute brisk walk",
+                        "instructions": "This workout improves cardiovascular health."
+                    },
+                    {
+                        "name": "Workout 12",
+                        "amount": "Cycling: 45 minutes at moderate intensity",
+                        "instructions": "This workout boosts endurance and burns calories."
+                    }
+                ]
+            },
+            "Intermediate": {
+                "Muscle": [
+                    {
+                        "name": "Workout 1",
+                        "amount": "3 sets of 10 reps",
+                        "instructions": "This workout focuses on building muscle mass in the upper body."
+                    },
+                    {
+                        "name": "Workout 2",
+                        "amount": "4 sets of 12 reps",
+                        "instructions": "This workout targets the chest and triceps."
+                    }
+                ],
+                "Strength": [
+                    {
+                        "name": "Workout 3",
+                        "amount": "5 sets of 5 reps",
+                        "instructions": "This workout is designed to increase overall strength and power."
+                    },
+                    {
+                        "name": "Workout 4",
+                        "amount": "3 sets of 8 reps",
+                        "instructions": "This workout focuses on compound movements like squats and deadlifts."
+                    }
+                ],
+                "Speed": [
+                    {
+                        "name": "Workout 5",
+                        "amount": "6 sets of 20-second sprints",
+                        "instructions": "This workout improves speed and agility."
+                    },
+                    {
+                        "name": "Workout 6",
+                        "amount": "Interval training: 1 minute sprint, 1 minute jog, repeat 10 times.",
+                        "instructions": "This workout boosts cardiovascular endurance."
+                    }
+                ],
+                "Mobility": [
+                    {
+                        "name": "Workout 7",
+                        "amount": "10 minutes of dynamic stretching",
+                        "instructions": "This workout improves flexibility and mobility."
+                    },
+                    {
+                        "name": "Workout 8",
+                        "amount": "Yoga flow: Sun Salutations, Warrior poses, and Seated Forward Bend.",
+                        "instructions": "This workout enhances overall mobility and reduces stiffness."
+                    }
+                ],
+                "Flexibility": [
+                    {
+                        "name": "Workout 9",
+                        "amount": "30 minutes of static stretching",
+                        "instructions": "This workout increases flexibility and reduces the risk of injury."
+                    },
+                    {
+                        "name": "Workout 10",
+                        "amount": "Pilates: focus on spine flexibility and core strength.",
+                        "instructions": "This workout improves flexibility and posture."
+                    }
+                ],
+                "Cardio": [
+                    {
+                        "name": "Workout 11",
+                        "amount": "30-minute brisk walk",
+                        "instructions": "This workout improves cardiovascular health."
+                    },
+                    {
+                        "name": "Workout 12",
+                        "amount": "Cycling: 45 minutes at moderate intensity",
+                        "instructions": "This workout boosts endurance and burns calories."
+                    }
+                ]
+            },
+            "Advanced": {
+                "Muscle": [
+                    {
+                        "name": "Workout 1",
+                        "amount": "3 sets of 10 reps",
+                        "instructions": "This workout focuses on building muscle mass in the upper body."
+                    },
+                    {
+                        "name": "Workout 2",
+                        "amount": "4 sets of 12 reps",
+                        "instructions": "This workout targets the chest and triceps."
+                    }
+                ],
+                "Strength": [
+                    {
+                        "name": "Workout 3",
+                        "amount": "5 sets of 5 reps",
+                        "instructions": "This workout is designed to increase overall strength and power."
+                    },
+                    {
+                        "name": "Workout 4",
+                        "amount": "3 sets of 8 reps",
+                        "instructions": "This workout focuses on compound movements like squats and deadlifts."
+                    }
+                ],
+                "Speed": [
+                    {
+                        "name": "Workout 5",
+                        "amount": "6 sets of 20-second sprints",
+                        "instructions": "This workout improves speed and agility."
+                    },
+                    {
+                        "name": "Workout 6",
+                        "amount": "Interval training: 1 minute sprint, 1 minute jog, repeat 10 times.",
+                        "instructions": "This workout boosts cardiovascular endurance."
+                    }
+                ],
+                "Mobility": [
+                    {
+                        "name": "Workout 7",
+                        "amount": "10 minutes of dynamic stretching",
+                        "instructions": "This workout improves flexibility and mobility."
+                    },
+                    {
+                        "name": "Workout 8",
+                        "amount": "Yoga flow: Sun Salutations, Warrior poses, and Seated Forward Bend.",
+                        "instructions": "This workout enhances overall mobility and reduces stiffness."
+                    }
+                ],
+                "Flexibility": [
+                    {
+                        "name": "Workout 9",
+                        "amount": "30 minutes of static stretching",
+                        "instructions": "This workout increases flexibility and reduces the risk of injury."
+                    },
+                    {
+                        "name": "Workout 10",
+                        "amount": "Pilates: focus on spine flexibility and core strength.",
+                        "instructions": "This workout improves flexibility and posture."
+                    }
+                ],
+                "Cardio": [
+                    {
+                        "name": "Workout 11",
+                        "amount": "30-minute brisk walk",
+                        "instructions": "This workout improves cardiovascular health."
+                    },
+                    {
+                        "name": "Workout 12",
+                        "amount": "Cycling: 45 minutes at moderate intensity",
+                        "instructions": "This workout boosts endurance and burns calories."
+                    }
+                ]
+            }
+        }
+    }
+}
