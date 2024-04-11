@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../Navbar/NavbarHome";
+import Footer from "../../Footer/Footer";
 import { Link } from "react-router-dom";
 import BMRCalculator from "./BMRCalculator";
 import BMICalculator from "./BMICalculator";
@@ -22,12 +23,14 @@ export default function Calculators ({ onLogout, user }) {
 
             <div style={{
             background: "linear-gradient(90deg, rgba(131, 126, 226, 1) 24%, rgba(114, 114, 226, 1) 58%, rgba(0, 212, 255, 1) 100%)"
-        }} className="rounded-xl h-fit m-10 items-center justify-center p-10 grid grid-cols-2 grid-rows-2 gap-4">
+        }} className="rounded-xl h-fit m-12 items-center justify-center p-10 grid grid-cols-2 grid-rows-2 gap-4">
                 <BMRCalculator />
                 <BFPCalculator />
                 <BMICalculator />
                 <WLPCalculator />
             </div>
+
+            <Footer />
         </>
     )
 }
