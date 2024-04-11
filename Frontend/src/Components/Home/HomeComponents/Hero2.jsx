@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { fadeIn, textVariant, staggerContainer } from './motion'
+import { shuffle, takeRight } from 'lodash';
+import axios from "axios"
+import { Link } from "react-router-dom"
 
 const ServiceCard1 = ({ index }) => {
     return (
@@ -36,6 +39,22 @@ const ServiceCard1 = ({ index }) => {
 }
 
 const ServiceCard2 = ({ index }) => {
+    const [articles, setArticles] = useState([])
+    
+    const getArticles = async () => {
+        try {
+            const response = await axios.get("http://localhost:5000/api/v1/articles");
+            console.log(response.data);
+            setArticles(takeRight(shuffle(response.data), 3));
+        } catch (error) {
+            console.log("Error fetching articles...", error);
+        }
+    }
+
+    useEffect(() => {
+        getArticles();
+    }, [])
+
     return (
         <motion.div variants={fadeIn("right", "spring", 0.5 * index, 0.75)} className='w-full p-[1px] rounded-[20px]'>
             <div options={{ max: 45, scale: 1, speed: 450 }} className='bg-gray-300 relative rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'>
@@ -45,22 +64,24 @@ const ServiceCard2 = ({ index }) => {
                     {/* This part is to be made dynamic */}
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                         <div class="p-6 bg-white rounded-lg shadow-md">
-                            <h3 class="text-xl font-semibold text-gray-900 mb-4">Workout of the Day</h3>
-                            <p class="text-gray-700 mb-4">Get ready to sweat with our daily workout routines designed to challenge and inspire you.</p>
-                            <a href="#" class="text-blue-600 hover:text-blue-800">Learn More</a>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-4">{articles.length > 0 && articles[0].title}</h3>
+                            <p class="text-gray-700 mb-4">{ articles.length > 0 && articles[0].body.split(" ").splice(0, 10).join(" ") + "..."}</p>
+                            <Link to='/nutrition'><a href="#" class="text-blue-600 hover:text-blue-800">Learn More</a></Link>
                         </div>
 
                         <div class="p-6 bg-white rounded-lg shadow-md">
-                            <h3 class="text-xl font-semibold text-gray-900 mb-4">Success Stories</h3>
-                            <p class="text-gray-700 mb-4">Read inspiring stories from our community members who have achieved their fitness goals.</p>
-                            <a href="#" class="text-blue-600 hover:text-blue-800">Read More</a>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-4">{articles.length > 0 && articles[1].title}</h3>
+                            <p class="text-gray-700 mb-4">{ articles.length > 0 && articles[1].body.split(" ").splice(0, 10).join(" ") + "..."}</p>
+                            <Link to='/nutrition'><a href="#" class="text-blue-600 hover:text-blue-800">Learn More</a></Link>
                         </div>
 
+
                         <div class="p-6 bg-white rounded-lg shadow-md">
-                            <h3 class="text-xl font-semibold text-gray-900 mb-4">Testimonials</h3>
-                            <p class="text-gray-700 mb-4">Discover what our clients have to say about their experience with Pro Nutrition & Fitness.</p>
-                            <a href="#" class="text-blue-600 hover:text-blue-800">See Testimonials</a>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-4">{articles.length > 0 && articles[2].title}</h3>
+                            <p class="text-gray-700 mb-4">{ articles.length > 0 && articles[2].body.split(" ").splice(0, 10).join(" ") + "..."}</p>
+                            <Link to='/nutrition'><a href="#" class="text-blue-600 hover:text-blue-800">Learn More</a></Link>
                         </div>
+
                     </div>
                 </div>
             </div>
