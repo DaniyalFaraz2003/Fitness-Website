@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../../Navbar/NavbarHome"
 import Footer from "../../Footer/Footer";
 import { Link } from "react-router-dom";
@@ -6,6 +6,7 @@ import Selectors from "./Selectors";
 import Exercises from "./Exercises";
 
 export default function Fitness({ onLogout, user }) {
+    const [exercises, setExercises] = useState([]);
     return (
         <>
             <Navbar onLogout={onLogout} user={user} />
@@ -19,8 +20,8 @@ export default function Fitness({ onLogout, user }) {
                 <p className="text-lg md:text-2xl text-center text-gray-600 mb-8">Discover Your Perfect Workout Routine Tailored to Your Goals and Fitness Level.</p>
             </div>
 
-            <Selectors />
-            <Exercises />
+            <Selectors setExercises={setExercises} />
+            <Exercises exercises={exercises} />
 
             <Footer />
         </>

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Selectors() {
+export default function Selectors({ setExercises }) {
 
     return (
         <div style={{
