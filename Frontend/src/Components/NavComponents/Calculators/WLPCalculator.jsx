@@ -36,7 +36,7 @@ export default function WLPCalculator() {
         <div className="bg-white shadow-md rounded-lg p-6 h-fit">
             <form onSubmit={handleSubmit}>
                 <h4 className="text-2xl font-semibold mb-4">Weight Loss % Calculator</h4>
-
+                <hr className=" border-black mb-5" />
                 <div className="mb-4">
                     <label htmlFor="start" className="block mb-2">Start Weight (kg)</label>
                     <input type="number" name="start" id="start" value={formData.start} onChange={handleChange} className="w-full border border-gray-300 rounded-lg py-2 px-3 focus:outline-none focus:ring focus:ring-indigo-400" placeholder="Enter Start Weight" />
@@ -49,7 +49,7 @@ export default function WLPCalculator() {
 
                 <div className="mb-4">
                     <label htmlFor="wlpresult" className="block mb-2">Your Weight Loss Percentage Is</label>
-                    <input type="text" name="wlpresult" id="wlpresult" value={formData.wlpresult} className="w-full border border-gray-300 rounded-lg py-2 px-3 focus:outline-none focus:ring focus:ring-indigo-400" readOnly />
+                    <input type="text" name="wlpresult" id="wlpresult" value={formData.wlpresult} className="w-full border border-gray-300 bg-gray-200 rounded-lg py-2 px-3 focus:outline-none focus:ring focus:ring-indigo-400" readOnly />
                 </div>
 
                 <hr className="my-6 border-t" />

@@ -5,38 +5,6 @@ import { shuffle, takeRight } from 'lodash';
 import axios from "axios"
 import { Link } from "react-router-dom"
 
-const ServiceCard1 = ({ index }) => {
-    return (
-        <motion.div variants={fadeIn("right", "spring", 0.5 * index, 0.75)} className='w-full p-[1px] rounded-[20px]'>
-
-            <div options={{ max: 45, scale: 1, speed: 450 }} className='bg-gray-300 relative rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'>
-                <div class="bg-gray-100 p-8">
-                    <h2 class="text-3xl font-bold text-center text-gray-900 mb-6">Featured Content</h2>
-
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                        <div class="p-6 bg-white rounded-lg shadow-md">
-                            <h3 class="text-xl font-semibold text-gray-900 mb-4">Workout of the Day</h3>
-                            <p class="text-gray-700 mb-4">Get ready to sweat with our daily workout routines designed to challenge and inspire you.</p>
-                            <a href="#" class="text-blue-600 hover:text-blue-800">Learn More</a>
-                        </div>
-
-                        <div class="p-6 bg-white rounded-lg shadow-md">
-                            <h3 class="text-xl font-semibold text-gray-900 mb-4">Success Stories</h3>
-                            <p class="text-gray-700 mb-4">Read inspiring stories from our community members who have achieved their fitness goals.</p>
-                            <a href="#" class="text-blue-600 hover:text-blue-800">Read More</a>
-                        </div>
-
-                        <div class="p-6 bg-white rounded-lg shadow-md">
-                            <h3 class="text-xl font-semibold text-gray-900 mb-4">Testimonials</h3>
-                            <p class="text-gray-700 mb-4">Discover what our clients have to say about their experience with Pro Nutrition & Fitness.</p>
-                            <a href="#" class="text-blue-600 hover:text-blue-800">See Testimonials</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </motion.div>
-    );
-}
 
 const ServiceCard2 = ({ index }) => {
     const [articles, setArticles] = useState([])
@@ -104,8 +72,7 @@ const Hero2 = () => {
                 </motion.p>
                 <hr className='mt-5 border-black' />
                 <div className='mt-20 flex flex-col gap-5'>
-                    <ServiceCard1 index={0} />
-                    <ServiceCard2 index={1} />
+                    <ServiceCard2 index={0} />
                 </div>
             </div>
         </section>

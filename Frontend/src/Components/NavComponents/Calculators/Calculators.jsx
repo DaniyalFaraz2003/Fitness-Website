@@ -23,7 +23,7 @@ export default function Calculators ({ onLogout, user }) {
 
             <div style={{
             background: "linear-gradient(90deg, rgba(131, 126, 226, 1) 24%, rgba(114, 114, 226, 1) 58%, rgba(0, 212, 255, 1) 100%)"
-        }} className="rounded-xl h-fit m-12 items-center justify-center p-10 grid grid-cols-2 grid-rows-2 gap-4">
+        }} className="rounded-xl flex flex-col h-fit m-12 items-center justify-center p-10 md:grid md:grid-cols-2 md:grid-rows-2 lg:grid lg:grid-cols-2 lg:grid-rows-2 gap-4">
                 <BMRCalculator />
                 <BFPCalculator />
                 <BMICalculator />

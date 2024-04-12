@@ -39,7 +39,7 @@ export default function BMRCalculator() {
         <div className="bg-white shadow-md rounded-lg p-6">
             <form onSubmit={handleSubmit}>
                 <h4 className="text-2xl font-semibold mb-4">BMR Calculator</h4>
-
+                <hr className=" border-black mb-5" />
                 <div className="mb-4">
                     <label htmlFor="weight" className="block mb-2">Weight (kg)</label>
                     <input type="number" name="weight" id="weight" value={formData.weight} onChange={handleChange} className="w-full border border-gray-300 rounded-lg py-2 px-3 focus:outline-none focus:ring focus:ring-indigo-400" placeholder="Enter weight" />
@@ -57,7 +57,7 @@ export default function BMRCalculator() {
 
                 <div className="mb-4">
                     <label htmlFor="bmrresult" className="block mb-2">Your BMR is</label>
-                    <input type="text" name="bmrresult" id="bmrresult" value={formData.bmrresult} readOnly className="w-full border border-gray-300 rounded-lg py-2 px-3 focus:outline-none focus:ring focus:ring-indigo-400" />
+                    <input type="text" name="bmrresult" id="bmrresult" value={formData.bmrresult} readOnly className="w-full border border-gray-300 bg-gray-200 rounded-lg py-2 px-3 focus:outline-none focus:ring focus:ring-indigo-400" />
                 </div>
 
                 <hr className="my-6 border-t" />

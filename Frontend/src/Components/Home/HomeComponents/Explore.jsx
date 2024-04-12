@@ -237,7 +237,7 @@ function Explore() {
             <div className='h-fit'>
                 <p className={`blue-text-gradient mb-10 font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-center`}>Explore More</p>
                 <div className='flex flex-col items-center justify-center lg:flex-row'>
-                    <div className='flex w-96 flex-row justify-center gap-10'>
+                    <div className='flex flex-wrap w-96 lg:flex-row lg:flex-nowrap justify-center gap-10'>
                         {nutrients.map((nutrient) => {
                             return (
                                 <div className='w-28 h-28' key={nutrient.name}>

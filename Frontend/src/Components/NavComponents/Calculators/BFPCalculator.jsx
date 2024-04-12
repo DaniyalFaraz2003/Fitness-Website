@@ -39,7 +39,7 @@ export default function BFPCalculator() {
         <div className="bg-white shadow-md rounded-lg p-6">
             <form onSubmit={handleSubmit}>
                 <h4 className="text-2xl font-semibold mb-4">Body Fat % Calculator</h4>
-
+                <hr className=" border-black mb-5" />
                 <div className="mb-4">
                     <label htmlFor="waist" className="block mb-2">Waist (in.)</label>
                     <input type="number" name="waist" id="waist" value={formData.waist} onChange={handleChange} className="w-full border border-gray-300 rounded-lg py-2 px-3 focus:outline-none focus:ring focus:ring-indigo-400" placeholder="Enter Waist" />
@@ -57,7 +57,7 @@ export default function BFPCalculator() {
 
                 <div className="mb-4">
                     <label htmlFor="bfpresult" className="block mb-2">Your Body Fat Percentage Is</label>
-                    <input type="text" name="bfpresult" id="bfpresult" value={formData.bfpresult} readOnly className="w-full border border-gray-300 rounded-lg py-2 px-3 focus:outline-none focus:ring focus:ring-indigo-400" />
+                    <input type="text" name="bfpresult" id="bfpresult" value={formData.bfpresult} readOnly className="w-full border border-gray-300 bg-gray-200 rounded-lg py-2 px-3 focus:outline-none focus:ring focus:ring-indigo-400" />
                 </div>
 
                 <hr className="my-6 border-t" />

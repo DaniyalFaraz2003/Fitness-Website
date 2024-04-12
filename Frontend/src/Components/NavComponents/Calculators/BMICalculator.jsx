@@ -36,7 +36,7 @@ export default function BMICalculator() {
         <div className="bg-white shadow-md rounded-lg p-6 h-fit">
             <form onSubmit={handleSubmit}>
                 <h4 className="text-2xl font-semibold mb-4">BMI Calculator</h4>
-
+                <hr className=" border-black mb-5" />
                 <div className="mb-4">
                     <label htmlFor="weight" className="block mb-2">Weight (kg)</label>
                     <input type="number" name="weight" id="weight" value={formData.weight} onChange={handleChange} className="w-full border border-gray-300 rounded-lg py-2 px-3 focus:outline-none focus:ring focus:ring-indigo-400" placeholder="Enter weight" />
@@ -49,7 +49,7 @@ export default function BMICalculator() {
 
                 <div className="mb-4">
                     <label htmlFor="bmiresult" className="block mb-2">Your BMI is</label>
-                    <input type="text" name="bmiresult" id="bmiresult" value={formData.bmiresult} className="w-full border border-gray-300 rounded-lg py-2 px-3 focus:outline-none focus:ring focus:ring-indigo-400" readOnly />
+                    <input type="text" name="bmiresult" id="bmiresult" value={formData.bmiresult} className="w-full border border-gray-300 bg-gray-200 rounded-lg py-2 px-3 focus:outline-none focus:ring focus:ring-indigo-400" readOnly />
                 </div>
 
                 <hr className="my-6 border-t" />
