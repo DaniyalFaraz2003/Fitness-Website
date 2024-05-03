@@ -10,7 +10,7 @@ const calculateBMI = (weight, height) => {
     2. Divide that answer by your height in inches (there are 12 inches in 1 foot).
     3. Divide that answer by your height in inches again.
     */
-    return ((703 * weight) / height) / height;
+    return ((weight) / height) / height;  
 };
 
 const calculateBFP = (waist, neck, height) => {

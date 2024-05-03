@@ -43,7 +43,7 @@ export default function BMICalculator() {
                 </div>
 
                 <div className="mb-4">
-                    <label htmlFor="height" className="block mb-2">Height (cm)</label>
+                    <label htmlFor="height" className="block mb-2">Height (m)</label>
                     <input type="number" name="height" id="height" value={formData.height} onChange={handleChange} className="w-full border border-gray-300 rounded-lg py-2 px-3 focus:outline-none focus:ring focus:ring-indigo-400" placeholder="Enter height" />
                 </div>
 
